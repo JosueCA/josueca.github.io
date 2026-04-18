@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+div.shell {
+  width: 90%;
+  max-width: 1100px;
+}
+
+section {
+  max-width: none;
+  width: auto;
+}
+
+header {
+  max-width: none;
+}
+
+section#main_content {
+  padding: 82px;
+}
+
+footer {
+  background:none;
+}
