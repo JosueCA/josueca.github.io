@@ -30,28 +30,22 @@ title: Imperivm 1 - La Amenaza Teutón
    - [Unidades Romanas](#unidades-romanas)
    - [Unidades Teutón](#unidades-teutón)
    - [Arqueros](#arqueros)
-   - [Heroes](#heroes)
+   - [Héroes](#heroes)
+1. [Mejoras al juego](#7-mejoras-al-juego)
+   - [IA Más "inteligente"](#ia-más-inteligente)
+   - [Fortaleza](#fortaleza)
+   - [Taverna Romana](#taverna-romana)
    - [Eliminado 'entrenamiento' de las unidades](#eliminado-entrenamiento-de-las-unidades)
    - [Formaciones](#formaciones)
-   - [Druidas/Sacerdotes](#druidassacerdotes)
-1. [Mejoras de la IA](#7-mejoras-de-la-ia)
-   - [Más "inteligente"](#más-inteligente)
-   - [Sistema de Construccion de Ejercito](#sistema-de-construccion-de-ejercito)
-     - [Investigacion Proactiva](#investigacion-proactiva)
-     - [Seleccion de Unidades Mejorada](#seleccion-de-unidades-mejorada)
-     - [Sistema de Contra-Unidades Mejorado](#sistema-de-contra-unidades-mejorado)
-   - [Prioridades de Ataque](#prioridades-de-ataque)
-   - [Fortaleza](#fortaleza)
    - [Druidas y Magia](#druidas-y-magia)
-   - [Monitor de Escuadrones](#monitor-de-escuadrones)
    - [Teutones](#teutones)
-   - [Ruinas](#ruinas)
-   - [Items](#items)
+   - [Catapultas](#catapultas)
    - [Aldeas](#aldeas)
-   - [Fortínes](#fortínes)
+   - [Fortines](#fortines)
    - [Animales](#animales)
+   - [Otros](#otros)
 1. [Colores de Jugadores](#8-colores-de-jugadores)
-1. [Notas de Instalacion](#9-notas-de-instalacion)
+1. [Notas de Instalación](#9-notas-de-instalacion)
 
 ---
 
@@ -103,6 +97,11 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 - Vídeo introductorio reescalado
 - Mejorada estabilidad del juego
 - La barra de vida de las unidades (función activada con la tecla '~') se ha limitado a los Héroes. Limitado a las unidades del jugador
+
+<p align="center">
+    <img src="capturas/captura_salud.png" style="width: 75%;  max-width: 768px;" alt="Barra de salud">
+</p>
+
 - Nuevo tipo de partida 'Total war' (Eliminación, pero con reclutamiento multiplicado x5)
 
 ## 5. Mapas aleatorios
@@ -124,7 +123,7 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 
 | Especialidad | Valor | Descripción |
 |---|---|---|
-| `daño expansivo/spread damage` | 175 % | El daño aumenta cuanto más dañado este el objetivo |
+| `daño expansivo/spread damage` | 175 % | El daño aumenta cuanto más dañado esté el objetivo |
 | `daño conjunto/trample damage` | 25 % | La unidad inflige un 25 % de daño a los enemigos cercanos |
 | `daño reflejado/spike damage` | 25 % | Devuelve 25% del daño al atacante. |
 | `carga/charge`  | 800 % / 8 000 ms | Multiplica el daño por 800% con una recarga de 8 segundos sin atacar |
@@ -178,14 +177,13 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 
 ---
 
-
 ### Arqueros
 - Arqueros con más alcance
 - Más débiles
 - Fuertes contra unidades con poca vida (habilidad)
 
-### Heroes
-- Modificaciones en las estadísticas base de heroes (más resistentes)
+### Héroes
+- Modificaciones en las estadísticas base de héroes (más resistentes)
 - Más vida por nivel
 - Reutilizados assets de héroes para generar más héroes aleatorios
 <p align="center">
@@ -193,14 +191,52 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 </p>
 
 - Los héroes pueden ordenar a los Druidas/Sacerdotes asignados a lanzar sus hechizos
+- Los héroes pueden ordenar a sus unidades construir una catapulta
+- NOTA: dar una nueva orden desde los héroes, cancela la orden anterior de catapulta/hechizos
 <p align="center">
     <img src="capturas/captura_heroe_hechizos.png" style="width: 75%; max-width: 768px;" alt="Héroes lanzan hechizos">
 </p>
 
-### Eliminado 'entrenamiento' de las unidades
-- Las unidades del cuartel se generan con el nivel según el nivel de 'entrenamiento' investigado
+
+## 7. Mejoras al juego
+
+### IA Más "inteligente"
+- Mayor dificultad al jugar contra la IA
+- Añadida una estrategia militar inicial
+- Añadida una estrategia de exploración inicial
+- Mejorado algoritmo de investigación de tecnologías. La IA investiga las mejoras en el coliseo, taberna, templo
+- Mejorado reclutamiento de las unidades especiales
+- Mejorado reclutamiento de las unidades militares
+- Mejorado cálculo y respuesta a las amenazas
+- Mejorada gestión de objetivos, IA más agresiva
+- Mejorado sistema de monitoreo y control de ejércitos
+- Mejorada el sistema de retirada de los ejércitos
+- Mejorado sistema de suministros de comida de los ejércitos
+- Mejorado sistema de teletransporte (cuevas)
+- Corregidos casos específicos en el algoritmo de asedio que mantenía a los ejércitos atascados sin poder asediar la fortaleza enemiga
+- Mejorado el uso de las ruinas
+- Mejorado el sistema de recogida y uso de items  
 <p align="center">
-    <img src="capturas/captura_cuartel_1.png" style="width: 75%;  max-width: 768px;" alt="Defensores del fortín">
+    <img src="capturas/captura_ia_items_1.png" style="width: 75%;  max-width: 768px;" alt="Sistema de items">
+</p>
+
+### Fortaleza
+- Corregidas animaciones de campesinos en las fortalezas romanas, además de añadir los edificios faltantes
+- Añadidos legionario (Roma)/arquero galo (Galo) a las animaciones de campesinos
+- Ajustados parámetros de ataque de torres y puertas. Las puertas también disparan flechas.
+- Desde el foro se pueden ejecutar los hechizos de los altares (el altar se elige aleatoriamente)
+<p align="center">
+    <img src="capturas/Captura_foro.png" style="width: 75%;  max-width: 768px;" alt="Hechizos en el foro">
+</p>
+
+### Taverna Romana
+- Nueva tecnología 'Campeonatos'
+- Modificada tecnología 'Importar caballos'
+
+### Eliminado 'entrenamiento' de las unidades
+- Las unidades del cuartel se generan con el nivel de 'entrenamiento' investigado
+<p align="center">
+    <img src="capturas/captura_cuartel_1.png" style="width: 75%;  max-width: 768px;" alt="Entrenamiento">
 </p>
 
 ### Formaciones
@@ -210,79 +246,33 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
     <img src="capturas/Captura_formaciones.png" style="width: 75%;  max-width: 768px;" alt="Formaciones">
 </p>
 
-
-### Druidas/Sacerdotes
-- Reducido daño de los hechizos
-- Reimplementado la 'Nube Venenosa' (sacerdote) para que no dañe a unidades amigas
-
-### Nueva mejoras
-- 'Championships' en la taverna Romana
-- 'Imported Horses' añade un item a los Equites
-
-
-## 7. Mejoras de la IA
-
-### Más "inteligente"
-- Mayor dificultad al jugar contra la IA
-- Añadida una estrategia inicial en las partidas aleatorias
-
-### Sistema de Construccion de Ejercito
-
-#### Investigacion Proactiva
-- Mejorado algoritmo de investigación
-
-#### Seleccion de Unidades Mejorada
-- Nuevos **weights** favorecen ejércitos más variados
-
-#### Sistema de Contra-Unidades Mejorado
-- Mejor respuesta a las amenazas
-
-### Prioridades de Ataque
-- Mejor gestion de objetivos, IA más agresiva
-- Mayores ejércitos
-
-### Fortaleza
-- La IA investiga las mejoras en el coliseo, taberna, templo
-- Corregidas animaciones de campesinos en las fortalezas romanas, además de añadir los edificios faltantes
-- Añadidos legionario (Roma)/arquero galo (Galo) a las animaciones de campesinos
-- Desde el foro se pueden ejecutar los hechizos de los altares (el altar se elige aleatoriamente)
-<p align="center">
-    <img src="capturas/Captura_foro.png" style="width: 75%;  max-width: 768px;" alt="Hechizos en el foro">
-</p>
-
 ### Druidas y Magia
+- Reducido daño de los hechizos
+- Reimplementada la 'Nube Venenosa' (sacerdote) para que no dañe a unidades amigas
 - Ajustes al sistema de reclutamiento de druidas
 - La IA utiliza los altares durante las partidas aleatorias
-- La IA utiliza los hechizos en el combate (Espiritu Vampiro, Nube venenosa)
+- La IA utiliza los hechizos en el combate (Espíritu Vampiro, Nube venenosa)
 <p align="center">
     <img src="capturas/Captura6_ia_nube.png" style="width: 75%;  max-width: 768px;" alt="Hechizos de IA">
 </p>
 
-### Monitor de Escuadrones
-- Ajustes al sistema de monitoreo y control de unidades
-
 ### Teutones
 - Los Teutones pueden capturar fortalezas de los jugadores
 <p align="center">
-    <img src="capturas/Captura4.png" style="width: 75%;  max-width: 768px;" alt="Defensores del fortín">
+    <img src="capturas/Captura4.png" style="width: 75%;  max-width: 768px;" alt="Amenaza Teutón">
 </p>
 
-### Ruinas
-- La IA usa mejor las ruinas
-
-### Items
-- Mejorado el sistema de recogida y uso de items
-<p align="center">
-    <img src="capturas/captura_ia_items_1.png" style="width: 75%;  max-width: 768px;" alt="Defensores del fortín">
-</p>
+### Catapultas
+- Reducido límite de unidades de 10 a 5
 
 ### Aldeas
 - Las aldeas producen campesinos automáticamente junto a las mulas de comida
+- Corregido bug de campesinos/mulas atascados para siempre en las puertas de la fortaleza
 
-### Fortínes
-- Añadidos defensores iniciales a los fortínes
+### Fortines
+- Añadidos defensores iniciales a los fortines
 <p align="center">
-    <img src="capturas/captura_fortines_1.png" style="width: 75%;  max-width: 768px;" alt="Fortínes Galos">
+    <img src="capturas/captura_fortines_1.png" style="width: 75%;  max-width: 768px;" alt="Fortines Galos">
 </p>
 <p align="center">
     <img src="capturas/captura_fortines_2.png" style="width: 75%;  max-width: 768px;" alt="Defensores del fortín">
@@ -291,6 +281,9 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 
 ### Animales
 - Corregido bug de los ciervos atascados en los bordes del mapa
+
+### Otros
+- Corregidos mensajes 'Handle Leak' en el vx.log
 
 ## 8. Colores de Jugadores
 
@@ -315,6 +308,6 @@ Rediseño de los colores de los jugadores para maximizar la distinción visual e
 
 ## Y muchos más cambios sin documentar...
 
-## 9. Notas de Instalacion
+## 9. Notas de Instalación
 
-Este MOD se aplica directamente sobre la instalacion del juego. Reemplazando los archivos .pak y demás directorios/ficheros incluidos en el zip.
+Este MOD se aplica directamente sobre la instalación del juego. Reemplazando los archivos .pak y demás directorios/ficheros incluidos en el zip.
