@@ -124,7 +124,7 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 | Especialidad | Valor | Descripción |
 |---|---|---|
 | `daño expansivo/spread damage` | 175 % | El daño aumenta cuanto más dañado esté el objetivo |
-| `daño conjunto/trample damage` | 25 % | La unidad inflige un 25 % de daño a los enemigos cercanos |
+| `daño conjunto/trample damage` | 50 % | La unidad inflige un 50 % de daño a los enemigos cercanos |
 | `daño reflejado/spike damage` | 25 % | Devuelve 25% del daño al atacante. |
 | `carga/charge`  | 800 % / 8 000 ms | Multiplica el daño por 800% con una recarga de 8 segundos sin atacar |
 | `golpe del vampiro/vampire blow` | 33 % | Recupera el 33 % del daño infligido como salud propia. |
@@ -134,15 +134,17 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 
 ---
 
+* La especialidad 'golpe letal/death blow' no afecta a los héroes
+
 ## Unidades Galas
 
 | Unidad | Salud | Ataque | Tipo de ataque | Def. Corte | Def. Pierce | Velocidad | Rango | Especialidad |
 |---|---|---|---|---|---|---|---|---|
 | Guerrero | 200 | 10–18 | slash | 0 | 0 | 100 | — | — |
-| Arquero | 100 | 4–8 | pierce | 0 | 0 | 80 | 400 | daño expansivo |
-| Guerrero con hacha | 260 | 16–24 | slash | 0 | 0 | 80 | — | daño conjunto |
-| Lancero | 280 | 16–24 | pierce | 6 | 6 | 80 | — | posición defensiva, daño expansivo |
-| Jinete | 360 | 10–24 | slash | 0 | 0 | 140 | — | carga |
+| Arquero | 100 | 6-10 | pierce | 0 | 0 | 80 | 400 | daño expansivo |
+| Guerrero con hacha | 280 | 16–24 | slash | 2 | 0 | 80 | — | daño conjunto |
+| Lancero | 300 | 16–24, x1.5 vs Caballería | pierce | 6 | 6 | 80 | — | posición defensiva, daño expansivo |
+| Jinete | 380 | 10–24 | slash | 0 | 0 | 140 | — | carga |
 | Mujer guerrera | 340 | 18–36 | slash | 0 | 8 | 80 | — | golpe del vampiro |
 | Druida | 120 | — | — | — | — | 60 | 200 | — |
 | Jefe Normando | 3000 | 42–84 | slash | 6 | 6 | 80 | — | libertad, carga |
@@ -153,14 +155,14 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 
 | Unidad | Salud | Ataque | Tipo de ataque | Def. Corte | Def. Pierce | Velocidad | Rango | Especialidad |
 |---|---|---|---|---|---|---|---|---|
-| Legionario | 240 | 13–17 | slash | 0 | 7 | 80 | — | posición defensiva |
-| Arquero | 125 | 5–10 | pierce | 0 | 0 | 80 | 400 | daño expansivo |
-| Gladiador | 255 | 23–23 | pierce | 3 | 3 | 100 | — | daño expansivo |
-| Princep | 300 | 17–27 | slash | 7 | 15 | 80 | — | posición defensiva, daño reflejado |
-| Equite | 330 | 13–21 | slash | 0 | 0 | 140 | — | carga |
-| Pretoriano | 475 | 27–47 | pierce | 10 | 10 | 80 | — | golpe letal |
+| Legionario | 240 | 13–17 | slash | 0 | 5 | 80 | — | posición defensiva |
+| Arquero | 125 | 9–13 | pierce | 3 | 3 | 80 | 400 | daño expansivo |
+| Gladiador | 255 | 23–23, x2 vs Mujer guerrera | pierce | 5 | 0 | 100 | — | daño expansivo |
+| Princep | 275 | 15–23, x1.5 vs Caballería | slash | 7 | 15 | 80 | — | posición defensiva, daño reflejado |
+| Equite | 330 | 13–21 | slash | 3 | 3 | 140 | — | carga |
+| Pretoriano | 475 | 27–47 | pierce | 7 | 7 | 80 | — | golpe letal |
 | Sacerdote | 120 | — | — | — | — | 60 | 200 | — |
-| Liberati | 400 | 30–30 | slash | 0 | 0 | 120 | — | — |
+| Liberati | 310 | 30–30 | slash | 0 | 0 | 120 | — | — |
 
 ---
 
@@ -169,10 +171,10 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 | Unidad | Salud | Ataque | Tipo de ataque | Def. Corte | Def. Pierce | Velocidad | Rango | Especialidad |
 |---|---|---|---|---|---|---|---|---|
 | Arquero Teutón | 200 | 8–18 | pierce | 0 | 0 | 160 | 400 | — |
-| Jinete Teutón | 250 | 12–22 | slash | 0 | 0 | 160 | — | daño conjunto |
+| Jinete Teutón | 250 | 10–20 | slash | 0 | 0 | 160 | — | daño conjunto |
 | Arquero Galo Teutón | 100 | 4–8 | pierce | 0 | 0 | 80 | 400 | — |
-| Espadachín Galo Teutón | 260 | 10–18 | slash | 0 | 0 | 80 | — | — |
-| Arquero Romano Teutón | 125 | 5–9 | pierce | 0 | 0 | 80 | 400 | — |
+| Espadachín Galo Teutón | 200 | 10–18 | slash | 0 | 0 | 100 | — | — |
+| Arquero Romano Teutón | 125 | 5–10 | pierce | 3 | 3 | 80 | 400 | — |
 | Hastatus Romano Teutón | 240 | 13–17 | slash | 0 | 7 | 80 | — | — |
 
 ---
@@ -197,6 +199,10 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
     <img src="capturas/captura_heroe_hechizos.png" style="width: 75%; max-width: 768px;" alt="Héroes lanzan hechizos">
 </p>
 
+- Modificado el reclutamiento aleatorio de los héroes, ahora es secuencial con el inicio aleatorio, para maximizar la distinción entre los assets/sprites de cada héroe en la partida.
+
+### Arquero teutón
+- Configurada la animación 'taunt' de la unidad
 
 ## 7. Mejoras al juego
 
@@ -224,6 +230,7 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 - Corregidas animaciones de campesinos en las fortalezas romanas, además de añadir los edificios faltantes
 - Añadidos legionario (Roma)/arquero galo (Galo) a las animaciones de campesinos
 - Ajustados parámetros de ataque de torres y puertas. Las puertas también disparan flechas.
+- Añadida notificación cuando termina la investigación de una tecnología
 - Desde el foro se pueden ejecutar los hechizos de los altares (el altar se elige aleatoriamente)
 <p align="center">
     <img src="capturas/Captura_foro.png" style="width: 75%;  max-width: 768px;" alt="Hechizos en el foro">
@@ -257,6 +264,7 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 </p>
 
 ### Teutones
+- Mejorada IA de los ejércitos teutones
 - Los Teutones pueden capturar fortalezas de los jugadores
 <p align="center">
     <img src="capturas/Captura4.png" style="width: 75%;  max-width: 768px;" alt="Amenaza Teutón">
@@ -268,6 +276,7 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 ### Aldeas
 - Las aldeas producen campesinos automáticamente junto a las mulas de comida
 - Corregido bug de campesinos/mulas atascados para siempre en las puertas de la fortaleza
+- Mejorada captura de las aldeas, no es posible capturar la aldea capturando sus 'casas'
 
 ### Fortines
 - Añadidos defensores iniciales a los fortines
