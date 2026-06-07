@@ -49,7 +49,23 @@ title: Imperivm 1 - La Amenaza Teutón
 
 ---
 
-## 1. Correcciones de Audio (Compatibilidad Wine)
+## 1. Compatibilidad Wine
+- **Wine**: WinXP 32 bits
+- **Winetricks**
+```
+dmband
+dmcompos
+dmime
+dmloader
+dmscript
+dmstyle
+dmsynth
+dmusic
+dmusic32
+dsound
+dswave
+directmusic
+```
 
 - **Conversión de codec de audio**: Los archivos de voz de las unidades usaban el codec Microsoft ADPCM, que Wine no soporta completamente. Se convirtieron **120+ archivos WAV** de voces (galos, romanos y teutones) a PCM estándar para que funcionen correctamente en Linux/Wine.
 - Convertidos archivos de audio de las aventuras 'Celtic Kings Adventure' y 'Tutorial'
