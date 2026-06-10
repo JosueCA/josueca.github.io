@@ -97,6 +97,9 @@ Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo
 
 1) EL ZOOMMAP ESTÁ LIMITADO A 1600 PARA QUE EL JUEGO NO SE CIERRE.
 
+
+**Soporte experimental para resoluciones >1600px disponible en la versión "La Amenaza Teuton v0.4.alpha"**
+
 ## 3. Correcciones al bioma de invierno
 - Reemplazadas las imágenes de los minimap por las de verano
 - Reducida la exposición (brillo) de las texturas de terreno de invierno
