@@ -90,15 +90,9 @@ directmusic
 | Res14 | 1600 | 1280 | 5:4 |
 | Res15 | 1680 | 1050 | 16:10 |
 | Res16 | 1920 | 1080 | 16:9 |
+| Res17 | 1920 | 1200 | 16:10 |
 
-Imperivm 1 solo soporta resoluciones horizontales de hasta 1600 píxeles máximo (valor hardcodeado en el binario).
-
-**Las resoluciones 15 y 16 (1680x1050 y 1920x1080) o mayores de 1600 requieren el ejecutable parcheado para jugar.**
-
-1) EL ZOOMMAP ESTÁ LIMITADO A 1600 PARA QUE EL JUEGO NO SE CIERRE.
-
-
-**Soporte experimental para resoluciones >1600px disponible en la versión "La Amenaza Teuton v0.4.alpha"**
+**Soporte experimental para resoluciones 1600px-1920px disponible en la versión "La Amenaza Teuton v0.4.0"**
 
 ## 3. Correcciones al bioma de invierno
 - Reemplazadas las imágenes de los minimap por las de verano
