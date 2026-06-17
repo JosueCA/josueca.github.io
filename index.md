@@ -92,7 +92,7 @@ directmusic
 | Res16 | 1920 | 1080 | 16:9 |
 | Res17 | 1920 | 1200 | 16:10 |
 
-**Soporte experimental para resoluciones 1600px-1920px disponible en la versión "La Amenaza Teuton v0.4.0"**
+**Soporte experimental para resoluciones 1600px-1920px disponible desde la versión "La Amenaza Teuton v0.4.0"**
 
 ## 3. Correcciones al bioma de invierno
 - Reemplazadas las imágenes de los minimap por las de verano
@@ -170,7 +170,7 @@ directmusic
 |---|---|---|---|---|---|---|---|---|
 | Legionario | 240 | 13–17 | slash | 0 | 5 | 80 | — | posición defensiva |
 | Arquero | 125 | 9–13 | pierce | 3 | 3 | 80 | 400 | daño expansivo |
-| Gladiador | 255 | 23–23, x2 vs Mujer guerrera | pierce | 5 | 0 | 100 | — | daño expansivo |
+| Gladiador | 255 | 23–23 | pierce | 5 | 0 | 100 | — | daño expansivo |
 | Princep | 275 | 15–23, x1.5 vs Caballería | slash | 7 | 15 | 80 | — | posición defensiva, daño reflejado |
 | Equite | 330 | 13–21 | slash | 3 | 3 | 140 | — | carga |
 | Pretoriano | 475 | 27–47 | pierce | 7 | 7 | 80 | — | golpe letal |
@@ -315,17 +315,17 @@ Rediseño de los colores de los jugadores para maximizar la distinción visual e
 |-------|---------------|--------------|-------------|------------|
 | id1   | ![](capturas/colores/id1_old.png) | `#FF1717` | ![](capturas/colores/id1.png) | `#FF2222` |
 | id2   | ![](capturas/colores/id2_old.png) | `#FFFF00` | ![](capturas/colores/id2.png) | `#CCBB00` |
-| id3   | ![](capturas/colores/id3_old.png) | `#00FF00` | ![](capturas/colores/id6.png) | `#00BB77` |
-| id4   | ![](capturas/colores/id4_old.png) | `#00E8E8` | ![](capturas/colores/id10.png) | `#0055DD` |
-| id5   | ![](capturas/colores/id5_old.png) | `#EDA0FF` | ![](capturas/colores/id9.png) | `#007700` |
-| id6   | ![](capturas/colores/id6_old.png) | `#B6E686` | ![](capturas/colores/id11.png) | `#9900CC` |
-| id7   | ![](capturas/colores/id7_old.png) | `#AE0000` | ![](capturas/colores/id8.png) | `#FF8800` |
-| id8   | ![](capturas/colores/id8_old.png) | `#F99B20` | ![](capturas/colores/id3.png) | `#66AA00` |
-| id9   | ![](capturas/colores/id9_old.png) | `#109B12` | ![](capturas/colores/id4.png) | `#0099CC` |
-| id10  | ![](capturas/colores/id10_old.png) | `#0000F8` | ![](capturas/colores/id12.png) | `#4400AA` |
-| id11  | ![](capturas/colores/id11_old.png) | `#C40DC6` | ![](capturas/colores/id5.png) | `#FF44CC` |
-| id12  | ![](capturas/colores/id12_old.png) | `#9F9A00` | ![](capturas/colores/id7.png) | `#CC0055` |
-| id13  | ![](capturas/colores/id13_old.png) | `#808080` | ![](capturas/colores/id13.png) | `#555555` |
+| id3   | ![](capturas/colores/id3_old.png) | `#00FF00` | ![](capturas/colores/id3.png) | `#00BB77` |
+| id4   | ![](capturas/colores/id4_old.png) | `#00E8E8` | ![](capturas/colores/id4.png) | `#00E8E8` |
+| id5   | ![](capturas/colores/id5_old.png) | `#EDA0FF` | ![](capturas/colores/id5.png) | `#007700` |
+| id6   | ![](capturas/colores/id6_old.png) | `#B6E686` | ![](capturas/colores/id6.png) | `#9900CC` |
+| id7   | ![](capturas/colores/id7_old.png) | `#AE0000` | ![](capturas/colores/id7.png) | `#FF8800` |
+| id8   | ![](capturas/colores/id8_old.png) | `#F99B20` | ![](capturas/colores/id8.png) | `#66AA00` |
+| id9   | ![](capturas/colores/id9_old.png) | `#109B12` | ![](capturas/colores/id9.png) | `#0099CC` |
+| id10  | ![](capturas/colores/id10_old.png) | `#0000F8` | ![](capturas/colores/id10.png) | `#555555` |
+| id11  | ![](capturas/colores/id11_old.png) | `#C40DC6` | ![](capturas/colores/id11.png) | `#FF44CC` |
+| id12  | ![](capturas/colores/id12_old.png) | `#9F9A00` | ![](capturas/colores/id12.png) | `#CC0055` |
+| id13  | ![](capturas/colores/id13_old.png) | `#808080` | ![](capturas/colores/id13.png) | `#111111` |
 
 
 ## Y muchos más cambios sin documentar...
