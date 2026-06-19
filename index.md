@@ -11,7 +11,9 @@ title: Imperivm 1 - La Amenaza Teutón
 
 ## Descargar
 
-[Descargar](https://github.com/JosueCA/La-Amenaza-Teuton/releases)  
+[Descargar el mod](https://github.com/JosueCA/La-Amenaza-Teuton/releases)  
+
+[Descargar Imperivm 1 HD (Sin mod)](https://github.com/JosueCA/La-Amenaza-Teuton/releases)  
 
 [Descargar mapas](https://github.com/JosueCA/La-Amenaza-Teuton)  
 
