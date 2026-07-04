@@ -109,7 +109,7 @@ directmusic
 ## 4. Cambios generales
 - Cambios en la música
 - Pequeños ajustes en la interfaz del juego
-- Vídeo introductorio reescalado
+- Vídeo introductorio reemplazado por el trailer (mejor calidad)
 - Mejorada estabilidad del juego
 - La barra de vida de las unidades (función activada con la tecla '~') se ha limitado a los Héroes. Limitado a las unidades del jugador
 
@@ -177,7 +177,7 @@ directmusic
 | Equite | 330 | 13–21 | slash | 3 | 3 | 140 | — | carga |
 | Pretoriano | 475 | 27–47 | pierce | 7 | 7 | 80 | — | golpe letal |
 | Sacerdote | 120 | — | — | — | — | 60 | 200 | — |
-| Liberati | 310 | 30–30 | slash | 0 | 0 | 120 | — | — |
+| Liberati | 300 | 30–30 | slash | 0 | 0 | 120 | — | — |
 
 ---
 
@@ -185,12 +185,12 @@ directmusic
 
 | Unidad | Salud | Ataque | Tipo de ataque | Def. Corte | Def. Pierce | Velocidad | Rango | Especialidad |
 |---|---|---|---|---|---|---|---|---|
-| Arquero Teutón | 200 | 8–18 | pierce | 0 | 0 | 160 | 400 | — |
-| Jinete Teutón | 250 | 10–20 | slash | 0 | 0 | 160 | — | daño conjunto |
-| Arquero Galo Teutón | 100 | 4–8 | pierce | 0 | 0 | 80 | 400 | — |
-| Espadachín Galo Teutón | 200 | 10–18 | slash | 0 | 0 | 100 | — | — |
-| Arquero Romano Teutón | 125 | 5–10 | pierce | 3 | 3 | 80 | 400 | — |
-| Hastatus Romano Teutón | 240 | 13–17 | slash | 0 | 7 | 80 | — | — |
+| Arquero Teutón | 200 | 8–18, x2 vs Mulas | pierce | 0 | 0 | 160 | 400 | — |
+| Jinete Teutón | 250 | 10–20, x2 vs Mulas | slash | 0 | 0 | 160 | — | daño conjunto |
+| Arquero Galo Teutón | 100 | 6–12 | pierce | 2 | 2 | 80 | 400 | — |
+| Espadachín Galo Teutón | 240 | 10–18 | slash | 2 | 2 | 100 | — | — |
+| Arquero Romano Teutón | 125 | 9–13 | pierce | 3 | 3 | 80 | 400 | — |
+| Hastatus Romano Teutón | 230 | 13–17 | slash | 3 | 3 | 80 | — | — |
 
 ---
 
@@ -200,7 +200,7 @@ directmusic
 - Fuertes contra unidades con poca vida (habilidad)
 
 ### Héroes
-- Modificaciones en las estadísticas base de héroes (más resistentes)
+- Modificaciones en las estadísticas base de héroes (más vida)
 - Más vida por nivel
 - Reutilizados assets de héroes para generar más héroes aleatorios
 <p align="center">
