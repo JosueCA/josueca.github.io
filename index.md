@@ -19,6 +19,11 @@ title: Imperivm 1 - La Amenaza Teutón
 
 ---
 
+## Compatibilidad con aventuras
+Este MOD no es 100% compatible con las aventuras. Para disfrutar de la experiencia original en Full HD, utilizar el parche independiente para el juego.
+
+https://github.com/JosueCA/La-Amenaza-Teuton/blob/master/AdventuresMod/README.md
+
 ## Tabla de Contenidos
 
 1. [Correcciones de Audio (Compatibilidad Wine)](#1-correcciones-de-audio-compatibilidad-wine)
