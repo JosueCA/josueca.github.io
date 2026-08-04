@@ -19,6 +19,7 @@ title: Imperivm 1 - La Amenaza Teutón
 
 ---
 
+
 ## Compatibilidad con aventuras
 Este MOD no es 100% compatible con las aventuras. Para disfrutar de la experiencia original en Full HD, utilizar el parche independiente para el juego.
 
@@ -26,9 +27,9 @@ Este MOD no es 100% compatible con las aventuras. Para disfrutar de la experienc
 
 ## Tabla de Contenidos
 
-1. [Correcciones de Audio (Compatibilidad Wine)](#1-correcciones-de-audio-compatibilidad-wine)
+1. [Compatibilidad Wine](#1-compatibilidad-wine)
 1. [Nuevas resoluciones HD de pantalla](#2-nuevas-resoluciones-hd-de-pantalla)
-1. [Correcciones al bioma de invierno](#3-correcciones-al-bioma-de-invierno)
+1. [Soporte multilingüe](#3-soporte-multilingüe)
 1. [Cambios generales](#4-cambios-generales)
 1. [Mapas aleatorios](#5-mapas-aleatorios)
 1. [Cambios en Unidades](#6-cambios-en-unidades)
@@ -51,8 +52,9 @@ Este MOD no es 100% compatible con las aventuras. Para disfrutar de la experienc
    - [Fortines](#fortines)
    - [Animales](#animales)
    - [Otros](#otros)
-1. [Colores de Jugadores](#8-colores-de-jugadores)
-1. [Notas de Instalación](#9-notas-de-instalacion)
+1. [Correcciones al bioma de invierno](#8-correcciones-al-bioma-de-invierno)
+1. [Colores de Jugadores](#9-colores-de-jugadores)
+1. [Notas de Instalación](#10-notas-de-instalación)
 
 ---
 
@@ -99,17 +101,11 @@ directmusic
 | Res16 | 1920 | 1080 | 16:9 |
 | Res17 | 1920 | 1200 | 16:10 |
 
-**Soporte experimental para resoluciones 1600px-1920px disponible desde la versión "La Amenaza Teuton v0.4.0"**
+**Soporte para resoluciones 1600px-1920px disponible desde la versión "La Amenaza Teuton v0.4.0"**
 
-## 3. Correcciones al bioma de invierno
-- Reemplazadas las imágenes de los minimap por las de verano
-- Reducida la exposición (brillo) de las texturas de terreno de invierno
-<p align="center">
-    <img src="capturas/captura_mapa_invierno_1.png" style="width: 75%;  max-width: 768px;" alt="Mapa invierno">
-</p>
-<p align="center">
-    <img src="capturas/captura_decorados_inv_1.png" style="width: 75%;  max-width: 768px;" alt="Decorados invierno">
-</p>
+## 3. Soporte multilingüe
+- Añadidos idiomas Alemán, Francés, Inglés, e Italiano (además del Español). Configurable desde el fichero 'vxSettings.ini'
+- Corregido volumen de las voces en inglés
 
 ## 4. Cambios generales
 - Cambios en la música
@@ -130,12 +126,40 @@ directmusic
 - Aumentado el ratio de decoraciones
 - Añadidos más decorados que generan items
 - Disminuido número de ciervos
-<p align="center">
-    <img src="capturas/captura_decorados_1.png" style="width: 75%;  max-width: 768px;" alt="Decorados 1">
-</p>
-<p align="center">
-    <img src="capturas/captura_decorados_2.png" style="width: 75%;  max-width: 768px;" alt="Decorados 2">
-</p>
+- Nuevos decorados para aldeas, fortalezas, fortínes y campamentos teutones
+- Mejorada colocación aleatoria de montañas sobre las aldeas
+
+<span id="galeria"></span>
+
+<div class="galeria" markdown="0">
+  <a href="#img-decorados1"><img src="capturas/mapas/thumbs/captura_decorados_1.png" alt="Decorados 1" loading="lazy"></a>
+  <a href="#img-decorados2"><img src="capturas/mapas/thumbs/captura_decorados_2.png" alt="Decorados 2" loading="lazy"></a>
+  <a href="#img-romecity"><img src="capturas/mapas/thumbs/rome_city.png" alt="Ciudad romana" loading="lazy"></a>
+  <a href="#img-gaulcity"><img src="capturas/mapas/thumbs/gaul_city.png" alt="Ciudad gala" loading="lazy"></a>
+  <a href="#img-outpost1"><img src="capturas/mapas/thumbs/outpost1.png" alt="Fortín 1" loading="lazy"></a>
+  <a href="#img-outpost2"><img src="capturas/mapas/thumbs/outpost2.png" alt="Fortín 2" loading="lazy"></a>
+  <a href="#img-village1"><img src="capturas/mapas/thumbs/village1.png" alt="Aldea 1" loading="lazy"></a>
+  <a href="#img-village2"><img src="capturas/mapas/thumbs/village2.png" alt="Aldea 2" loading="lazy"></a>
+  <a href="#img-village3"><img src="capturas/mapas/thumbs/village3.png" alt="Aldea 3" loading="lazy"></a>
+  <a href="#img-village4"><img src="capturas/mapas/thumbs/village4.png" alt="Aldea 4" loading="lazy"></a>
+  <a href="#img-village5"><img src="capturas/mapas/thumbs/village5.png" alt="Aldea 5" loading="lazy"></a>
+  <a href="#img-village6"><img src="capturas/mapas/thumbs/village6.png" alt="Aldea 6" loading="lazy"></a>
+</div>
+
+<div class="lightbox" id="img-decorados1"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/captura_decorados_1.png" alt="Decorados 1"></div>
+<div class="lightbox" id="img-decorados2"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/captura_decorados_2.png" alt="Decorados 2"></div>
+<div class="lightbox" id="img-romecity"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/rome_city.png" alt="Ciudad romana"></div>
+<div class="lightbox" id="img-gaulcity"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/gaul_city.png" alt="Ciudad gala"></div>
+<div class="lightbox" id="img-outpost1"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/outpost1.png" alt="Fortín 1"></div>
+<div class="lightbox" id="img-outpost2"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/outpost2.png" alt="Fortín 2"></div>
+<div class="lightbox" id="img-village1"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village1.png" alt="Aldea 1"></div>
+<div class="lightbox" id="img-village2"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village2.png" alt="Aldea 2"></div>
+<div class="lightbox" id="img-village3"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village3.png" alt="Aldea 3"></div>
+<div class="lightbox" id="img-village4"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village4.png" alt="Aldea 4"></div>
+<div class="lightbox" id="img-village5"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village5.png" alt="Aldea 5"></div>
+<div class="lightbox" id="img-village6"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village6.png" alt="Aldea 6"></div>
+
+---
 
 ## 6. Cambios en Unidades
 
@@ -313,8 +337,22 @@ directmusic
 
 ### Otros
 - Corregidos mensajes 'Handle Leak' en el vx.log
+- Corregidos mensajes 'assets/interface/settlement icon' en vx.log
+- Corregidos bugs de BONUS.XML no tienen efecto aleatoriamente
+- Corregidos crashes aleatorios al cargar mapas
 
-## 8. Colores de Jugadores
+## 8. Correcciones al bioma de invierno
+- Reemplazadas las imágenes de los minimap por las de verano
+- Reducida la exposición (brillo) de las texturas de terreno de invierno
+<p align="center">
+    <img src="capturas/captura_mapa_invierno_1.png" style="width: 75%;  max-width: 768px;" alt="Mapa invierno">
+</p>
+<p align="center">
+    <img src="capturas/captura_decorados_inv_1.png" style="width: 75%;  max-width: 768px;" alt="Decorados invierno">
+</p>
+
+
+## 9. Colores de Jugadores
 
 Rediseño de los colores de los jugadores para maximizar la distinción visual entre ellos y evitar interferencias.
 
@@ -337,6 +375,6 @@ Rediseño de los colores de los jugadores para maximizar la distinción visual e
 
 ## Y muchos más cambios sin documentar...
 
-## 9. Notas de Instalación
+## 10. Notas de Instalación
 
 Este MOD se aplica directamente sobre la instalación del juego. Reemplazando los archivos .pak y demás directorios/ficheros incluidos en el zip.
