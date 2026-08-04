@@ -1,4 +1,10 @@
 title: "Imperivm 1 - La Amenaza Teutón + Parche Full HD"
-description: "MOD y Parche Full HD para Imperivm: La Guerra de las Galias"
-theme: jekyll-theme-merlot
+description: "Imperivm 1 HD: mod «La Amenaza Teutón» y parche Full HD para Imperivm - La Guerra de las Galias. Nuevas resoluciones HD, IA mejorada, unidades, mapas, soporte multi idioma y soporte para Linux/Wine."
+url: "https://josueca.github.io"
+image: /capturas/AMENAZA_TEUTON.png
 lang: es
+theme: jekyll-theme-merlot
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

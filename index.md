@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Imperivm 1 - La Amenaza Teutón
+title: "Imperivm 1 HD y Mod - La Amenaza Teutón (Parche Full HD)"
+description: "Descarga el mod «La Amenaza Teutón» y el parche Imperivm 1 Full HD para Imperivm - La Guerra de las Galias: nuevas resoluciones HD, mejor IA, unidades, mapas aleatorios, soporte multi idioma y soporte Linux/Wine."
+image: /capturas/AMENAZA_TEUTON.png
 ---
 
 <p align="center">
@@ -8,6 +10,8 @@ title: Imperivm 1 - La Amenaza Teutón
     <br>
     <b>Imperivm 1 - La Amenaza Teutón</b>
 </p>
+
+**Imperivm 1 HD** es un **mod** («La Amenaza Teutón») y un **parche Full HD** para *Imperivm - La Guerra de las Galias* (Celtic Kings / Imperivm 1). Añade nuevas **resoluciones HD** hasta 1920×1080, una **IA mejorada**, cambios en unidades, mapas aleatorios, **soporte multi idioma** (Español, Alemán, Francés, Inglés e Italiano) y soporte para jugar en **Linux/Wine**.
 
 ## Descargar
 
@@ -338,7 +342,7 @@ directmusic
 ### Otros
 - Corregidos mensajes 'Handle Leak' en el vx.log
 - Corregidos mensajes 'assets/interface/settlement icon' en vx.log
-- Corregidos bugs de BONUS.XML no tienen efecto aleatoriamente
+- Corregidos BONUS.XML que no tienen efecto aleatoriamente
 - Corregidos crashes aleatorios al cargar mapas
 
 ## 8. Correcciones al bioma de invierno
