@@ -21,7 +21,12 @@ image: /capturas/AMENAZA_TEUTON.png
 
 [Descargar mapas](https://github.com/JosueCA/La-Amenaza-Teuton)  
 
-[Moddb](https://www.moddb.com/mods/la-amenaza-teuton)
+[Descargar en Moddb](https://www.moddb.com/mods/la-amenaza-teuton)  
+
+### Notas de Instalación
+
+Este MOD se aplica directamente sobre la instalación del juego de "Imperivm 1: La Guerra de las Galias" (versión española de Celtic Kings: Rage of War). Reemplazando los archivos .pak y demás directorios/ficheros incluidos en el zip.
+
 ---
 
 
@@ -59,7 +64,6 @@ Este MOD no es 100% compatible con las aventuras. Para disfrutar de la experienc
    - [Otros](#otros)
 1. [Correcciones al bioma de invierno](#8-correcciones-al-bioma-de-invierno)
 1. [Colores de Jugadores](#9-colores-de-jugadores)
-1. [Notas de Instalación](#10-notas-de-instalación)
 
 ---
 
@@ -175,7 +179,7 @@ directmusic
 | `daño expansivo/spread damage` | 175 % | El daño aumenta cuanto más dañado esté el objetivo |
 | `daño conjunto/trample damage` | 50 % | La unidad inflige un 50 % de daño a los enemigos cercanos |
 | `daño reflejado/spike damage` | 25 % | Devuelve 25% del daño al atacante. |
-| `carga/charge`  | 800 % / 8 000 ms | Multiplica el daño por 800% con una recarga de 8 segundos sin atacar |
+| `carga/charge`  | 600 % / 8 000 ms | Multiplica el daño por 800% con una recarga de 8 segundos sin atacar |
 | `golpe del vampiro/vampire blow` | 33 % | Recupera el 33 % del daño infligido como salud propia. |
 | `golpe letal/death blow` | 33 % | Cuando el objetivo tiene menos del 33% de vida el siguiente ataque lo mata de un golpe. |
 | `posición defensiva/defensive stand` | — | Resiste el primer golpe del atacante |
@@ -193,7 +197,7 @@ directmusic
 | Arquero | 100 | 6-10 | pierce | 0 | 0 | 80 | 400 | daño expansivo |
 | Guerrero con hacha | 280 | 16–24 | slash | 2 | 0 | 80 | — | daño conjunto |
 | Lancero | 300 | 16–24, x1.5 vs Caballería | pierce | 6 | 6 | 80 | — | posición defensiva, daño expansivo |
-| Jinete | 380 | 10–24 | slash | 0 | 0 | 140 | — | carga |
+| Jinete | 380 | 20–28 | slash | 0 | 0 | 140 | — | carga |
 | Mujer guerrera | 340 | 18–36 | slash | 0 | 8 | 80 | — | golpe del vampiro |
 | Druida | 120 | — | — | — | — | 60 | 200 | — |
 | Jefe Normando | 3000 | 42–84 | slash | 6 | 6 | 80 | — | libertad, carga |
@@ -206,9 +210,9 @@ directmusic
 |---|---|---|---|---|---|---|---|---|
 | Legionario | 240 | 13–17 | slash | 0 | 5 | 80 | — | posición defensiva |
 | Arquero | 125 | 9–13 | pierce | 3 | 3 | 80 | 400 | daño expansivo |
-| Gladiador | 255 | 23–23 | pierce | 5 | 0 | 100 | — | daño expansivo |
+| Gladiador | 255 | 21–21 | pierce | 5 | 0 | 100 | — | daño expansivo |
 | Princep | 275 | 15–23, x1.5 vs Caballería | slash | 7 | 15 | 80 | — | posición defensiva, daño reflejado |
-| Equite | 330 | 13–21 | slash | 3 | 3 | 140 | — | carga |
+| Equite | 330 | 17–25 | slash | 3 | 3 | 140 | — | carga |
 | Pretoriano | 475 | 27–47 | pierce | 7 | 7 | 80 | — | golpe letal |
 | Sacerdote | 120 | — | — | — | — | 60 | 200 | — |
 | Liberati | 300 | 30–30 | slash | 0 | 0 | 120 | — | — |
@@ -379,7 +383,3 @@ Rediseño de los colores de los jugadores para maximizar la distinción visual e
 
 
 ## Y muchos más cambios sin documentar...
-
-## 10. Notas de Instalación
-
-Este MOD se aplica directamente sobre la instalación del juego. Reemplazando los archivos .pak y demás directorios/ficheros incluidos en el zip.
