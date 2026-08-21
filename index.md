@@ -174,12 +174,17 @@ directmusic
 
 ## Especialidades
 
+- La especialidad 'golpe letal/death blow' no afecta a los héroes
+- Corregida especialidad 'attack skill' que no funcionaba
+
 | Especialidad | Valor | Descripción |
 |---|---|---|
+| `ataque continue/attack skill` | +1 | Aumenta el daño con cada golpe contra el mismo objetivo |
+| `berserk/berserker` | 100 % | Aumenta el daño al perder salud |
 | `daño expansivo/spread damage` | 175 % | El daño aumenta cuanto más dañado esté el objetivo |
 | `daño conjunto/trample damage` | 50 % | La unidad inflige un 50 % de daño a los enemigos cercanos |
 | `daño reflejado/spike damage` | 25 % | Devuelve 25% del daño al atacante. |
-| `carga/charge`  | 600 % / 8 000 ms | Multiplica el daño por 800% con una recarga de 8 segundos sin atacar |
+| `carga/charge`  | 600 % / 8 000 ms | Multiplica el daño por 600% con una recarga de 8 segundos sin atacar |
 | `golpe del vampiro/vampire blow` | 33 % | Recupera el 33 % del daño infligido como salud propia. |
 | `golpe letal/death blow` | 33 % | Cuando el objetivo tiene menos del 33% de vida el siguiente ataque lo mata de un golpe. |
 | `posición defensiva/defensive stand` | — | Resiste el primer golpe del atacante |
@@ -187,13 +192,11 @@ directmusic
 
 ---
 
-* La especialidad 'golpe letal/death blow' no afecta a los héroes
-
 ## Unidades Galas
 
 | Unidad | Salud | Ataque | Tipo de ataque | Def. Corte | Def. Pierce | Velocidad | Rango | Especialidad |
 |---|---|---|---|---|---|---|---|---|
-| Guerrero | 200 | 10–18 | slash | 0 | 0 | 100 | — | — |
+| Guerrero | 160 | 10–18 | slash | 0 | 0 | 100 | — | — |
 | Arquero | 100 | 6-10 | pierce | 0 | 0 | 80 | 400 | daño expansivo |
 | Guerrero con hacha | 280 | 16–24 | slash | 2 | 0 | 80 | — | daño conjunto |
 | Lancero | 300 | 16–24, x1.5 vs Caballería | pierce | 6 | 6 | 80 | — | posición defensiva, daño expansivo |
@@ -208,14 +211,14 @@ directmusic
 
 | Unidad | Salud | Ataque | Tipo de ataque | Def. Corte | Def. Pierce | Velocidad | Rango | Especialidad |
 |---|---|---|---|---|---|---|---|---|
-| Legionario | 240 | 13–17 | slash | 0 | 5 | 80 | — | posición defensiva |
+| Legionario | 200 | 13–17 | slash | 0 | 5 | 80 | — | posición defensiva |
 | Arquero | 125 | 9–13 | pierce | 3 | 3 | 80 | 400 | daño expansivo |
 | Gladiador | 255 | 21–21 | pierce | 5 | 0 | 100 | — | daño expansivo |
 | Princep | 275 | 15–23, x1.5 vs Caballería | slash | 7 | 15 | 80 | — | posición defensiva, daño reflejado |
 | Equite | 330 | 17–25 | slash | 3 | 3 | 140 | — | carga |
-| Pretoriano | 475 | 27–47 | pierce | 7 | 7 | 80 | — | golpe letal |
+| Pretoriano | 475 | 27–47 | pierce | 7 | 7 | 80 | — | ataque continuo,golpe letal |
 | Sacerdote | 120 | — | — | — | — | 60 | 200 | — |
-| Liberati | 300 | 30–30 | slash | 0 | 0 | 120 | — | — |
+| Liberati | 300 | 30–30 | slash | 0 | 0 | 120 | — | berserker |
 
 ---
 
@@ -228,7 +231,7 @@ directmusic
 | Arquero Galo Teutón | 100 | 6–12 | pierce | 2 | 2 | 80 | 400 | — |
 | Espadachín Galo Teutón | 240 | 10–18 | slash | 2 | 2 | 100 | — | — |
 | Arquero Romano Teutón | 125 | 9–13 | pierce | 3 | 3 | 80 | 400 | — |
-| Hastatus Romano Teutón | 230 | 13–17 | slash | 3 | 3 | 80 | — | — |
+| Hastatus Romano Teutón | 240 | 13–17 | slash | 3 | 3 | 80 | — | — |
 
 ---
 
@@ -275,6 +278,7 @@ directmusic
 - Corregidos casos específicos en el algoritmo de asedio que mantenía a los ejércitos atascados sin poder asediar la fortaleza enemiga
 - Mejorado el uso de las ruinas
 - Mejorado el sistema de recogida y uso de items  
+- Reimplementado comercio de comida con los outpost galos
 <p align="center">
     <img src="capturas/captura_ia_items_1.png" style="width: 75%;  max-width: 768px;" alt="Sistema de items">
 </p>
