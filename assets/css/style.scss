@@ -88,3 +88,63 @@ footer {
   text-decoration: none;
   border: none;
 }
+/* --- Tiras de animación de los feedbacks de especialidad --- */
+img.fbstrip {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  background: #1b1b1b;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+
+/* --- Iconos de unidad en las tablas --- */
+span.unidad {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+img.icono {
+  flex: 0 0 auto;
+  height: 48px;
+  width: auto;
+  image-rendering: pixelated;
+}
+
+/* las filas con icono son altas: centra el resto de columnas */
+section#main_content table td {
+  vertical-align: middle;
+}
+
+/* --- Selector de idioma --- */
+nav.langbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 10px;
+  margin: 14px auto 0;
+  font-size: 13px;
+}
+
+nav.langbar a,
+nav.langbar .actual {
+  padding: 3px 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  border: none;
+}
+
+nav.langbar a {
+  color: #7a4b6b;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+nav.langbar a:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+nav.langbar .actual {
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.14);
+}

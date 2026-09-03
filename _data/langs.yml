@@ -1,0 +1,15 @@
+- code: es
+  name: Español
+  url: /
+- code: en
+  name: English
+  url: /en/
+- code: de
+  name: Deutsch
+  url: /de/
+- code: fr
+  name: Français
+  url: /fr/
+- code: it
+  name: Italiano
+  url: /it/

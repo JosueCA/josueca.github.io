@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ page.lang | default: site.lang | default: "es" }}">
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +20,11 @@
 
 {% seo %}
 
+    {% for l in site.data.langs %}
+    <link rel="alternate" hreflang="{{ l.code }}" href="{{ l.url | absolute_url }}">
+    {% endfor %}
+    <link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+
 {% include head-custom.html %}
   </head>
 
@@ -27,11 +32,22 @@
     <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
     <div class="shell">
 
+      <nav class="langbar" aria-label="Language">
+        {% assign cur = page.lang | default: site.lang | default: "es" %}
+        {% for l in site.data.langs %}
+          {% if l.code == cur %}
+            <span class="actual" aria-current="true">{{ l.name }}</span>
+          {% else %}
+            <a href="{{ l.url | relative_url }}" hreflang="{{ l.code }}" lang="{{ l.code }}">{{ l.name }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+
       <header>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+            <h1>{{ page.banner_title | default: site.title | default: site.github.repository_name }}</h1>
+            <h2>{{ page.banner_tagline | default: site.description | default: site.github.project_tagline }}</h2>
           </span>
           <span class="left-tail"></span>
           <span class="right-tail"></span>

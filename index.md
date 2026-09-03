@@ -44,13 +44,14 @@ Este MOD no es 100% compatible con las aventuras. Para disfrutar de la experienc
 1. [Mapas aleatorios](#5-mapas-aleatorios)
 1. [Cambios en Unidades](#6-cambios-en-unidades)
    - [Especialidades](#especialidades)
+   - [Efectos visuales de las especialidades](#efectos-visuales-de-las-especialidades)
    - [Unidades Galas](#unidades-galas)
    - [Unidades Romanas](#unidades-romanas)
    - [Unidades Teutón](#unidades-teutón)
-   - [Arqueros](#arqueros)
-   - [Héroes](#heroes)
+   - [Otras Unidades](#otras-unidades)
+   - [Héroes](#héroes)
 1. [Mejoras al juego](#7-mejoras-al-juego)
-   - [IA Más "inteligente"](#ia-más-inteligente)
+   - [Nueva IA «LAT»](#nueva-ia-lat)
    - [Fortaleza](#fortaleza)
    - [Taverna Romana](#taverna-romana)
    - [Eliminado 'entrenamiento' de las unidades](#eliminado-entrenamiento-de-las-unidades)
@@ -124,7 +125,7 @@ directmusic
 - La barra de vida de las unidades (función activada con la tecla '~') se ha limitado a los Héroes. Limitado a las unidades del jugador
 
 <p align="center">
-    <img src="capturas/captura_salud.png" style="width: 75%;  max-width: 768px;" alt="Barra de salud">
+    <img src="capturas/captura_salud.png" style="width: 75%;  max-width: 768px;" alt="Barra de salud" loading="lazy">
 </p>
 
 - Nuevo tipo de partida 'Total war' (Eliminación, pero con reclutamiento multiplicado x5)
@@ -155,18 +156,18 @@ directmusic
   <a href="#img-village6"><img src="capturas/mapas/thumbs/village6.png" alt="Aldea 6" loading="lazy"></a>
 </div>
 
-<div class="lightbox" id="img-decorados1"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/captura_decorados_1.png" alt="Decorados 1"></div>
-<div class="lightbox" id="img-decorados2"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/captura_decorados_2.png" alt="Decorados 2"></div>
-<div class="lightbox" id="img-romecity"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/rome_city.png" alt="Ciudad romana"></div>
-<div class="lightbox" id="img-gaulcity"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/gaul_city.png" alt="Ciudad gala"></div>
-<div class="lightbox" id="img-outpost1"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/outpost1.png" alt="Fortín 1"></div>
-<div class="lightbox" id="img-outpost2"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/outpost2.png" alt="Fortín 2"></div>
-<div class="lightbox" id="img-village1"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village1.png" alt="Aldea 1"></div>
-<div class="lightbox" id="img-village2"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village2.png" alt="Aldea 2"></div>
-<div class="lightbox" id="img-village3"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village3.png" alt="Aldea 3"></div>
-<div class="lightbox" id="img-village4"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village4.png" alt="Aldea 4"></div>
-<div class="lightbox" id="img-village5"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village5.png" alt="Aldea 5"></div>
-<div class="lightbox" id="img-village6"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village6.png" alt="Aldea 6"></div>
+<div class="lightbox" id="img-decorados1"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/captura_decorados_1.png" alt="Decorados 1" loading="lazy"></div>
+<div class="lightbox" id="img-decorados2"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/captura_decorados_2.png" alt="Decorados 2" loading="lazy"></div>
+<div class="lightbox" id="img-romecity"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/rome_city.png" alt="Ciudad romana" loading="lazy"></div>
+<div class="lightbox" id="img-gaulcity"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/gaul_city.png" alt="Ciudad gala" loading="lazy"></div>
+<div class="lightbox" id="img-outpost1"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/outpost1.png" alt="Fortín 1" loading="lazy"></div>
+<div class="lightbox" id="img-outpost2"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/outpost2.png" alt="Fortín 2" loading="lazy"></div>
+<div class="lightbox" id="img-village1"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village1.png" alt="Aldea 1" loading="lazy"></div>
+<div class="lightbox" id="img-village2"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village2.png" alt="Aldea 2" loading="lazy"></div>
+<div class="lightbox" id="img-village3"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village3.png" alt="Aldea 3" loading="lazy"></div>
+<div class="lightbox" id="img-village4"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village4.png" alt="Aldea 4" loading="lazy"></div>
+<div class="lightbox" id="img-village5"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village5.png" alt="Aldea 5" loading="lazy"></div>
+<div class="lightbox" id="img-village6"><a href="#galeria" class="cerrar">&times;</a><img src="capturas/mapas/village6.png" alt="Aldea 6" loading="lazy"></div>
 
 ---
 
@@ -179,16 +180,34 @@ directmusic
 
 | Especialidad | Valor | Descripción |
 |---|---|---|
-| `ataque continue/attack skill` | +1 | Aumenta el daño con cada golpe contra el mismo objetivo |
+| `ataque continuo/attack skill` | +1 | Aumenta el daño con cada golpe contra el mismo objetivo |
 | `berserk/berserker` | 100 % | Aumenta el daño al perder salud |
-| `daño expansivo/spread damage` | 175 % | El daño aumenta cuanto más dañado esté el objetivo |
+| `carga/charge` | 600 % / 8 000 ms | Multiplica el daño por 600% con una recarga de 8 segundos sin atacar |
 | `daño conjunto/trample damage` | 50 % | La unidad inflige un 50 % de daño a los enemigos cercanos |
+| `daño expansivo/spread damage` | 175 % | El daño aumenta cuanto más dañado esté el objetivo |
 | `daño reflejado/spike damage` | 25 % | Devuelve 25% del daño al atacante. |
-| `carga/charge`  | 600 % / 8 000 ms | Multiplica el daño por 600% con una recarga de 8 segundos sin atacar |
 | `golpe del vampiro/vampire blow` | 33 % | Recupera el 33 % del daño infligido como salud propia. |
 | `golpe letal/death blow` | 33 % | Cuando el objetivo tiene menos del 33% de vida el siguiente ataque lo mata de un golpe. |
-| `posición defensiva/defensive stand` | — | Resiste el primer golpe del atacante |
 | `libertad/freedom` | — | No permite unirse a los héroes. |
+| `posición defensiva/defensive stand` | — | Resiste el primer golpe del atacante |
+
+---
+
+## Efectos visuales de las especialidades
+
+| Especialidad | Efecto | Se muestra sobre | Cuándo aparece |
+|---|---|---|---|
+| `ataque continuo/attack skill` | <img src="capturas/feedbacks/Penetration.png" class="fbstrip" alt="Efecto ataque continuo" loading="lazy"> | Atacante | En cada golpe |
+| `berserk/berserker` | <img src="capturas/feedbacks/Rage.png" class="fbstrip" alt="Efecto berserker" loading="lazy"> | Atacante | En cada golpe |
+| `carga/charge` | <img src="capturas/feedbacks/Charge.png" class="fbstrip" alt="Efecto carga" loading="lazy"> | Atacante | **Solo** cuando la carga está recargada |
+| `daño conjunto/trample damage` | <img src="capturas/feedbacks/TripleStrike.png" class="fbstrip" alt="Efecto daño conjunto" loading="lazy"> | Atacante | En cada golpe |
+| `daño expansivo/spread damage` | <img src="capturas/feedbacks/BleedingAttack.png" class="fbstrip" alt="Efecto daño expansivo" loading="lazy"> | Objetivo | En cada golpe |
+| `daño reflejado/spike damage` | <img src="capturas/feedbacks/SpikedArmor.png" class="fbstrip" alt="Efecto daño reflejado" loading="lazy"> | Defensor | En cada golpe |
+| `golpe del vampiro/vampire blow` | <img src="capturas/feedbacks/StaminaBoost.png" class="fbstrip" alt="Efecto golpe del vampiro" loading="lazy"> | Atacante | En cada golpe |
+| `golpe letal/death blow` | <img src="capturas/feedbacks/Revenge.png" class="fbstrip" alt="Efecto golpe letal" loading="lazy"> | Objetivo | **Solo** en el golpe que remata |
+| `posición defensiva/defensive stand` | <img src="capturas/feedbacks/DefensiveStand.png" class="fbstrip" alt="Efecto posición defensiva" loading="lazy"> | Defensor | **Solo** en el primer golpe del atacante |
+
+`libertad/freedom` es una habilidad pasiva y no tiene efecto visual.
 
 ---
 
@@ -196,14 +215,15 @@ directmusic
 
 | Unidad | Salud | Ataque | Tipo de ataque | Def. Corte | Def. Pierce | Velocidad | Rango | Especialidad |
 |---|---|---|---|---|---|---|---|---|
-| Guerrero | 160 | 10–18 | slash | 0 | 0 | 100 | — | — |
-| Arquero | 100 | 6-10 | pierce | 0 | 0 | 80 | 400 | daño expansivo |
-| Guerrero con hacha | 280 | 16–24 | slash | 2 | 0 | 80 | — | daño conjunto |
-| Lancero | 300 | 16–24, x1.5 vs Caballería | pierce | 6 | 6 | 80 | — | posición defensiva, daño expansivo |
-| Jinete | 380 | 20–28 | slash | 0 | 0 | 140 | — | carga |
-| Mujer guerrera | 340 | 18–36 | slash | 0 | 8 | 80 | — | golpe del vampiro |
-| Druida | 120 | — | — | — | — | 60 | 200 | — |
-| Jefe Normando | 3000 | 42–84 | slash | 6 | 6 | 80 | — | libertad, carga |
+| <span class="unidad"><img src="capturas/iconos/gswordsman.png" class="icono" alt="Guerrero" loading="lazy"><span>Guerrero</span></span> | 160 | 10–18 | slash | 0 | 0 | 100 | — | — |
+| <span class="unidad"><img src="capturas/iconos/garcher.png" class="icono" alt="Arquero" loading="lazy"><span>Arquero</span></span> | 100 | 6–10 | pierce | 0 | 0 | 80 | 400 | daño expansivo |
+| <span class="unidad"><img src="capturas/iconos/gaxeman.png" class="icono" alt="Guerrero con hacha" loading="lazy"><span>Guerrero con hacha</span></span> | 280 | 16–24 | slash | 2 | 0 | 80 | — | daño conjunto |
+| <span class="unidad"><img src="capturas/iconos/gspearman.png" class="icono" alt="Lancero" loading="lazy"><span>Lancero</span></span> | 300 | 16–24, x1.5 vs Caballería | pierce | 6 | 6 | 80 | — | posición defensiva, daño expansivo |
+| <span class="unidad"><img src="capturas/iconos/ghorseman.png" class="icono" alt="Jinete" loading="lazy"><span>Jinete</span></span> | 380 | 20–28 | slash | 0 | 0 | 140 | — | carga |
+| <span class="unidad"><img src="capturas/iconos/gwfighter.png" class="icono" alt="Mujer guerrera" loading="lazy"><span>Mujer guerrera</span></span> | 340 | 18–36 | slash | 0 | 8 | 80 | — | golpe del vampiro |
+| <span class="unidad"><img src="capturas/iconos/gdruid.png" class="icono" alt="Druida" loading="lazy"><span>Druida</span></span> | 120 | — | — | — | — | 60 | 200 | — |
+| <span class="unidad"><img src="capturas/iconos/gvikinglord.png" class="icono" alt="Jefe Normando" loading="lazy"><span>Jefe Normando</span></span> | 3000 | 42–84 | slash | 6 | 6 | 80 | — | libertad, carga |
+| <span class="unidad"><img src="capturas/iconos/ieliteguard.png" class="icono" alt="Guardia de élite" loading="lazy"><span>Guardia de élite</span></span> | 350 | 18–28 | slash | 10 | 10 | 80 | — | posición defensiva, ataque continuo |
 
 ---
 
@@ -211,14 +231,18 @@ directmusic
 
 | Unidad | Salud | Ataque | Tipo de ataque | Def. Corte | Def. Pierce | Velocidad | Rango | Especialidad |
 |---|---|---|---|---|---|---|---|---|
-| Legionario | 200 | 13–17 | slash | 0 | 5 | 80 | — | posición defensiva |
-| Arquero | 125 | 9–13 | pierce | 3 | 3 | 80 | 400 | daño expansivo |
-| Gladiador | 255 | 21–21 | pierce | 5 | 0 | 100 | — | daño expansivo |
-| Princep | 275 | 15–23, x1.5 vs Caballería | slash | 7 | 15 | 80 | — | posición defensiva, daño reflejado |
-| Equite | 330 | 17–25 | slash | 3 | 3 | 140 | — | carga |
-| Pretoriano | 475 | 27–47 | pierce | 7 | 7 | 80 | — | ataque continuo,golpe letal |
-| Sacerdote | 120 | — | — | — | — | 60 | 200 | — |
-| Liberati | 300 | 30–30 | slash | 0 | 0 | 120 | — | berserker |
+| <span class="unidad"><img src="capturas/iconos/rswordsman.png" class="icono" alt="Legionario" loading="lazy"><span>Legionario</span></span> | 200 | 13–17 | slash | 0 | 5 | 80 | — | posición defensiva |
+| <span class="unidad"><img src="capturas/iconos/rarcher.png" class="icono" alt="Arquero" loading="lazy"><span>Arquero</span></span> | 125 | 9–13 | pierce | 3 | 3 | 80 | 400 | daño expansivo |
+| <span class="unidad"><img src="capturas/iconos/rgladiator.png" class="icono" alt="Gladiador" loading="lazy"><span>Gladiador</span></span> | 255 | 21–21 | pierce | 5 | 0 | 100 | — | daño expansivo |
+| <span class="unidad"><img src="capturas/iconos/rspearman.png" class="icono" alt="Princep" loading="lazy"><span>Princep</span></span> | 275 | 15–23, x1.5 vs Caballería | slash | 7 | 15 | 80 | — | posición defensiva, daño reflejado |
+| <span class="unidad"><img src="capturas/iconos/rhorseman.png" class="icono" alt="Equite" loading="lazy"><span>Equite</span></span> | 330 | 17–25 | slash | 3 | 3 | 140 | — | carga |
+| <span class="unidad"><img src="capturas/iconos/rpraetorian.png" class="icono" alt="Pretoriano" loading="lazy"><span>Pretoriano</span></span> | 475 | 27–47 | pierce | 7 | 7 | 80 | — | ataque continuo, golpe letal |
+| <span class="unidad"><img src="capturas/iconos/rpriest.png" class="icono" alt="Sacerdote" loading="lazy"><span>Sacerdote</span></span> | 120 | — | — | — | — | 60 | 200 | — |
+| <span class="unidad"><img src="capturas/iconos/rliberatus.png" class="icono" alt="Liberati" loading="lazy"><span>Liberati</span></span> | 300 | 30–30 | slash | 0 | 0 | 120 | — | berserker |
+| <span class="unidad"><img src="capturas/iconos/cwarelephant.png" class="icono" alt="Elefante de guerra" loading="lazy"><span>Elefante de guerra</span></span> | 2000 | 30–40 | slash | 10 | 10 | 60 | — | libertad, daño conjunto |
+
+### Elefante de guerra
+- Las unidades a distancia infligen x1.5 contra Elefantes de guerra
 
 ---
 
@@ -226,46 +250,55 @@ directmusic
 
 | Unidad | Salud | Ataque | Tipo de ataque | Def. Corte | Def. Pierce | Velocidad | Rango | Especialidad |
 |---|---|---|---|---|---|---|---|---|
-| Arquero Teutón | 200 | 8–18, x2 vs Mulas | pierce | 0 | 0 | 160 | 400 | — |
-| Jinete Teutón | 250 | 10–20, x2 vs Mulas | slash | 0 | 0 | 160 | — | daño conjunto |
-| Arquero Galo Teutón | 100 | 6–12 | pierce | 2 | 2 | 80 | 400 | — |
-| Espadachín Galo Teutón | 240 | 10–18 | slash | 2 | 2 | 100 | — | — |
-| Arquero Romano Teutón | 125 | 9–13 | pierce | 3 | 3 | 80 | 400 | — |
-| Hastatus Romano Teutón | 240 | 13–17 | slash | 3 | 3 | 80 | — | — |
+| <span class="unidad"><img src="capturas/iconos/teutonarcher.png" class="icono" alt="Arquero Teutón" loading="lazy"><span>Arquero Teutón</span></span> | 200 | 8–18, x2 vs Mulas | pierce | 0 | 0 | 160 | 400 | — |
+| <span class="unidad"><img src="capturas/iconos/teutonmetal.png" class="icono" alt="Jinete Teutón" loading="lazy"><span>Jinete Teutón</span></span> | 250 | 10–20, x2 vs Mulas | slash | 0 | 0 | 160 | — | daño conjunto |
+| <span class="unidad"><img src="capturas/iconos/garcher.png" class="icono" alt="Arquero Galo Teutón" loading="lazy"><span>Arquero Galo Teutón</span></span> | 100 | 6–12 | pierce | 2 | 2 | 80 | 400 | — |
+| <span class="unidad"><img src="capturas/iconos/gswordsman.png" class="icono" alt="Espadachín Galo Teutón" loading="lazy"><span>Espadachín Galo Teutón</span></span> | 240 | 10–18 | slash | 2 | 2 | 100 | — | — |
+| <span class="unidad"><img src="capturas/iconos/rarcher.png" class="icono" alt="Arquero Romano Teutón" loading="lazy"><span>Arquero Romano Teutón</span></span> | 125 | 9–13 | pierce | 3 | 3 | 80 | 400 | — |
+| <span class="unidad"><img src="capturas/iconos/rswordsman.png" class="icono" alt="Hastatus Romano Teutón" loading="lazy"><span>Hastatus Romano Teutón</span></span> | 240 | 13–17 | slash | 3 | 3 | 80 | — | — |
+
+### Arquero teutón
+- Configurada la animación 'taunt' de la unidad
 
 ---
 
-### Arqueros
-- Arqueros con más alcance
-- Más débiles
-- Fuertes contra unidades con poca vida (habilidad)
+## Otras Unidades
+
+| Unidad | Salud | Ataque | Tipo de ataque | Def. Corte | Def. Pierce | Velocidad | Rango | Especialidad |
+|---|---|---|---|---|---|---|---|---|
+| <span class="unidad"><img src="capturas/iconos/imilitiaman.png" class="icono" alt="Miliciano" loading="lazy"><span>Miliciano</span></span> | 180 | 6–12 | slash | 4 | 0 | 80 | — | — |
+| <span class="unidad"><img src="capturas/iconos/iarcher.png" class="icono" alt="Arquero íbero" loading="lazy"><span>Arquero</span></span> | 180 | 12–18 | pierce | 4 | 8 | 80 | 400 | — |
+| <span class="unidad"><img src="capturas/iconos/islinger.png" class="icono" alt="Hondero" loading="lazy"><span>Hondero</span></span> | 200 | 20–30 | pierce | 0 | 0 | 100 | 300 | — |
+| <span class="unidad"><img src="capturas/iconos/idefender.png" class="icono" alt="Defensor" loading="lazy"><span>Defensor</span></span> | 200 | 14–24 | pierce | 8 | 8 | 80 | — | posición defensiva |
+| <span class="unidad"><img src="capturas/iconos/icavalry.png" class="icono" alt="Caballería ibera" loading="lazy"><span>Caballería</span></span> | 240 | 20–30 | slash | 6 | 6 | 160 | — | carga |
+| <span class="unidad"><img src="capturas/iconos/imountaineer.png" class="icono" alt="Montañés" loading="lazy"><span>Montañés</span></span> | 400 | 24–48 | slash | 4 | 0 | 80 | — | libertad |
+
+---
 
 ### Héroes
 - Modificaciones en las estadísticas base de héroes (más vida)
 - Más vida por nivel
 - Reutilizados assets de héroes para generar más héroes aleatorios
 <p align="center">
-    <img src="capturas/captura_heroes_1.png" style="width: 75%; max-width: 768px;" alt="Defensores del fortín">
+    <img src="capturas/captura_heroes_1.png" style="width: 75%; max-width: 768px;" alt="Defensores del fortín" loading="lazy">
 </p>
 
 - Los héroes pueden ordenar a los Druidas/Sacerdotes asignados a lanzar sus hechizos
 - Los héroes pueden ordenar a sus unidades construir una catapulta
 - NOTA: dar una nueva orden desde los héroes, cancela la orden anterior de catapulta/hechizos
 <p align="center">
-    <img src="capturas/captura_heroe_hechizos.png" style="width: 75%; max-width: 768px;" alt="Héroes lanzan hechizos">
+    <img src="capturas/captura_heroe_hechizos.png" style="width: 75%; max-width: 768px;" alt="Héroes lanzan hechizos" loading="lazy">
 </p>
 
 - Modificado el reclutamiento aleatorio de los héroes, ahora es secuencial con el inicio aleatorio, para maximizar la distinción entre los assets/sprites de cada héroe en la partida.
 
-### Arquero teutón
-- Configurada la animación 'taunt' de la unidad
-
 ## 7. Mejoras al juego
 
-### IA Más "inteligente"
+### Nueva IA «LAT»
 - Mayor dificultad al jugar contra la IA
 - Añadida una estrategia militar inicial
 - Añadida una estrategia de exploración inicial
+- Corregidos casos específicos en el algoritmo de asedio que mantenía a los ejércitos atascados sin poder asediar la fortaleza enemiga
 - Mejorado algoritmo de investigación de tecnologías. La IA investiga las mejoras en el coliseo, taberna, templo
 - Mejorado reclutamiento de las unidades especiales
 - Mejorado reclutamiento de las unidades militares
@@ -275,12 +308,11 @@ directmusic
 - Mejorada el sistema de retirada de los ejércitos
 - Mejorado sistema de suministros de comida de los ejércitos
 - Mejorado sistema de teletransporte (cuevas)
-- Corregidos casos específicos en el algoritmo de asedio que mantenía a los ejércitos atascados sin poder asediar la fortaleza enemiga
 - Mejorado el uso de las ruinas
 - Mejorado el sistema de recogida y uso de items  
 - Reimplementado comercio de comida con los outpost galos
 <p align="center">
-    <img src="capturas/captura_ia_items_1.png" style="width: 75%;  max-width: 768px;" alt="Sistema de items">
+    <img src="capturas/captura_ia_items_1.png" style="width: 75%;  max-width: 768px;" alt="Sistema de items" loading="lazy">
 </p>
 
 ### Fortaleza
@@ -290,7 +322,7 @@ directmusic
 - Añadida notificación cuando termina la investigación de una tecnología
 - Desde el foro se pueden ejecutar los hechizos de los altares (el altar se elige aleatoriamente)
 <p align="center">
-    <img src="capturas/Captura_foro.png" style="width: 75%;  max-width: 768px;" alt="Hechizos en el foro">
+    <img src="capturas/Captura_foro.png" style="width: 75%;  max-width: 768px;" alt="Hechizos en el foro" loading="lazy">
 </p>
 
 ### Taverna Romana
@@ -300,14 +332,14 @@ directmusic
 ### Eliminado 'entrenamiento' de las unidades
 - Las unidades del cuartel se generan con el nivel de 'entrenamiento' investigado
 <p align="center">
-    <img src="capturas/captura_cuartel_1.png" style="width: 75%;  max-width: 768px;" alt="Entrenamiento">
+    <img src="capturas/captura_cuartel_1.png" style="width: 75%;  max-width: 768px;" alt="Entrenamiento" loading="lazy">
 </p>
 
 ### Formaciones
 - Reducido el 'radio' de las unidades en formación. Las unidades en formaciones están más cerca entre sí.
 - Modificadas estructuras de las formaciones
 <p align="center">
-    <img src="capturas/Captura_formaciones.png" style="width: 75%;  max-width: 768px;" alt="Formaciones">
+    <img src="capturas/Captura_formaciones.png" style="width: 75%;  max-width: 768px;" alt="Formaciones" loading="lazy">
 </p>
 
 ### Druidas y Magia
@@ -317,14 +349,14 @@ directmusic
 - La IA utiliza los altares durante las partidas aleatorias
 - La IA utiliza los hechizos en el combate (Espíritu Vampiro, Nube venenosa)
 <p align="center">
-    <img src="capturas/Captura6_ia_nube.png" style="width: 75%;  max-width: 768px;" alt="Hechizos de IA">
+    <img src="capturas/Captura6_ia_nube.png" style="width: 75%;  max-width: 768px;" alt="Hechizos de IA" loading="lazy">
 </p>
 
 ### Teutones
 - Mejorada IA de los ejércitos teutones
 - Los Teutones pueden capturar fortalezas de los jugadores
 <p align="center">
-    <img src="capturas/Captura4.png" style="width: 75%;  max-width: 768px;" alt="Amenaza Teutón">
+    <img src="capturas/Captura4.png" style="width: 75%;  max-width: 768px;" alt="Amenaza Teutón" loading="lazy">
 </p>
 
 ### Catapultas
@@ -338,10 +370,10 @@ directmusic
 ### Fortines
 - Añadidos defensores iniciales a los fortines
 <p align="center">
-    <img src="capturas/captura_fortines_1.png" style="width: 75%;  max-width: 768px;" alt="Fortines Galos">
+    <img src="capturas/captura_fortines_1.png" style="width: 75%;  max-width: 768px;" alt="Fortines Galos" loading="lazy">
 </p>
 <p align="center">
-    <img src="capturas/captura_fortines_2.png" style="width: 75%;  max-width: 768px;" alt="Defensores del fortín">
+    <img src="capturas/captura_fortines_2.png" style="width: 75%;  max-width: 768px;" alt="Defensores del fortín" loading="lazy">
 </p>
 
 
@@ -358,10 +390,10 @@ directmusic
 - Reemplazadas las imágenes de los minimap por las de verano
 - Reducida la exposición (brillo) de las texturas de terreno de invierno
 <p align="center">
-    <img src="capturas/captura_mapa_invierno_1.png" style="width: 75%;  max-width: 768px;" alt="Mapa invierno">
+    <img src="capturas/captura_mapa_invierno_1.png" style="width: 75%;  max-width: 768px;" alt="Mapa invierno" loading="lazy">
 </p>
 <p align="center">
-    <img src="capturas/captura_decorados_inv_1.png" style="width: 75%;  max-width: 768px;" alt="Decorados invierno">
+    <img src="capturas/captura_decorados_inv_1.png" style="width: 75%;  max-width: 768px;" alt="Decorados invierno" loading="lazy">
 </p>
 
 
