@@ -3,9 +3,9 @@ layout: default
 lang: "en"
 permalink: /en/
 title: "Imperivm 1 HD and Mod - The Teuton Threat (Full HD Patch)"
-description: "Download the mod «La Amenaza Teutón» (The Teuton Threat) and the Imperivm 1 Full HD patch for Imperivm - The Gallic Wars: new HD resolutions, better AI, units, random maps, multi-language support and Linux/Wine support."
+description: "Download the mod «La Amenaza Teutón» (The Teuton Threat) and the Imperivm 1 Full HD patch for Imperivm - La Guerra de las Galias: new HD resolutions, better AI, units, random maps, multi-language support and Linux/Wine support."
 banner_title: "Imperivm 1 - The Teuton Threat + Full HD Patch"
-banner_tagline: "Imperivm 1 HD: the «La Amenaza Teutón» mod and the Full HD patch for Imperivm - The Gallic Wars. New HD resolutions, improved AI, units, maps, multi-language support and Linux/Wine support."
+banner_tagline: "Imperivm 1 HD: the «La Amenaza Teutón» mod and the Full HD patch for Imperivm - La Guerra de las Galias. New HD resolutions, improved AI, units, maps, multi-language support and Linux/Wine support."
 image: /capturas/AMENAZA_TEUTON.png
 ---
 
@@ -15,7 +15,7 @@ image: /capturas/AMENAZA_TEUTON.png
     <b>Imperivm 1 - The Teuton Threat</b>
 </p>
 
-**Imperivm 1 HD** is a **mod** («La Amenaza Teutón», The Teuton Threat) and a **Full HD patch** for *Imperivm - The Gallic Wars* (Celtic Kings / Imperivm 1). It adds new **HD resolutions** up to 1920×1080, an **improved AI**, unit changes, random maps, **multi-language support** (Spanish, German, French, English and Italian) and support for playing on **Linux/Wine**.
+**Imperivm 1 HD** is a **mod** («La Amenaza Teutón», The Teuton Threat) and a **Full HD patch** for *Imperivm - La Guerra de las Galias* (Celtic Kings / Imperivm 1). It adds new **HD resolutions** up to 1920×1080, an **improved AI**, unit changes, random maps, **multi-language support** (Spanish, German, French, English and Italian) and support for playing on **Linux/Wine**.
 
 ## Downloads {#downloads}
 

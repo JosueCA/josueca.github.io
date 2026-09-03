@@ -3,9 +3,9 @@ layout: default
 lang: "it"
 permalink: /it/
 title: "Imperivm 1 HD e Mod - La Minaccia Teutone (patch Full HD)"
-description: "Scarica la mod «La Amenaza Teutón» (La Minaccia Teutone) e la patch Full HD per Imperivm - La Guerra Gallica: nuove risoluzioni HD, IA migliorata, unità, mappe casuali, supporto multilingua e supporto Linux/Wine."
+description: "Scarica la mod «La Amenaza Teutón» (La Minaccia Teutone) e la patch Full HD per Imperivm - La Guerra de las Galias: nuove risoluzioni HD, IA migliorata, unità, mappe casuali, supporto multilingua e supporto Linux/Wine."
 banner_title: "Imperivm 1 - La Minaccia Teutone + patch Full HD"
-banner_tagline: "Imperivm 1 HD: la mod «La Amenaza Teutón» e la patch Full HD per Imperivm - La Guerra Gallica. Nuove risoluzioni HD, IA migliorata, unità, mappe, supporto multilingua e supporto Linux/Wine."
+banner_tagline: "Imperivm 1 HD: la mod «La Amenaza Teutón» e la patch Full HD per Imperivm - La Guerra de las Galias. Nuove risoluzioni HD, IA migliorata, unità, mappe, supporto multilingua e supporto Linux/Wine."
 image: /capturas/AMENAZA_TEUTON.png
 ---
 
@@ -15,7 +15,7 @@ image: /capturas/AMENAZA_TEUTON.png
     <b>Imperivm 1 - La Minaccia Teutone</b>
 </p>
 
-**Imperivm 1 HD** è una **mod** («La Amenaza Teutón», La Minaccia Teutone) e una **patch Full HD** per *Imperivm - La Guerra Gallica* (Celtic Kings / Imperivm 1). Aggiunge nuove **risoluzioni HD** fino a 1920×1080, un'**IA migliorata**, modifiche alle unità, mappe casuali, **supporto multilingua** (spagnolo, tedesco, francese, inglese e italiano) e il supporto per giocare su **Linux/Wine**.
+**Imperivm 1 HD** è una **mod** («La Amenaza Teutón», La Minaccia Teutone) e una **patch Full HD** per *Imperivm - La Guerra de las Galias* (Celtic Kings / Imperivm 1). Aggiunge nuove **risoluzioni HD** fino a 1920×1080, un'**IA migliorata**, modifiche alle unità, mappe casuali, **supporto multilingua** (spagnolo, tedesco, francese, inglese e italiano) e il supporto per giocare su **Linux/Wine**.
 
 ## Download {#downloads}
 

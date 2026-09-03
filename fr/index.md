@@ -3,9 +3,9 @@ layout: default
 lang: "fr"
 permalink: /fr/
 title: "Imperivm 1 HD et Mod - La Menace Teutonne (patch Full HD)"
-description: "Téléchargez le mod «La Amenaza Teutón» (La Menace Teutonne) et le patch Full HD pour Imperivm - La Guerre des Gaules : nouvelles résolutions HD, meilleure IA, unités, cartes aléatoires, support multilingue et support Linux/Wine."
+description: "Téléchargez le mod «La Amenaza Teutón» (La Menace Teutonne) et le patch Full HD pour Imperivm - La Guerra de las Galias : nouvelles résolutions HD, meilleure IA, unités, cartes aléatoires, support multilingue et support Linux/Wine."
 banner_title: "Imperivm 1 - La Menace Teutonne + patch Full HD"
-banner_tagline: "Imperivm 1 HD : le mod «La Amenaza Teutón» et le patch Full HD pour Imperivm - La Guerre des Gaules. Nouvelles résolutions HD, IA améliorée, unités, cartes, support multilingue et support Linux/Wine."
+banner_tagline: "Imperivm 1 HD : le mod «La Amenaza Teutón» et le patch Full HD pour Imperivm - La Guerra de las Galias. Nouvelles résolutions HD, IA améliorée, unités, cartes, support multilingue et support Linux/Wine."
 image: /capturas/AMENAZA_TEUTON.png
 ---
 
@@ -15,7 +15,7 @@ image: /capturas/AMENAZA_TEUTON.png
     <b>Imperivm 1 - La Menace Teutonne</b>
 </p>
 
-**Imperivm 1 HD** est un **mod** («La Amenaza Teutón», La Menace Teutonne) et un **patch Full HD** pour *Imperivm - La Guerre des Gaules* (Celtic Kings / Imperivm 1). Il ajoute de nouvelles **résolutions HD** jusqu'à 1920×1080, une **IA améliorée**, des changements d'unités, des cartes aléatoires, un **support multilingue** (espagnol, allemand, français, anglais et italien) et la prise en charge de **Linux/Wine**.
+**Imperivm 1 HD** est un **mod** («La Amenaza Teutón», La Menace Teutonne) et un **patch Full HD** pour *Imperivm - La Guerra de las Galias* (Celtic Kings / Imperivm 1). Il ajoute de nouvelles **résolutions HD** jusqu'à 1920×1080, une **IA améliorée**, des changements d'unités, des cartes aléatoires, un **support multilingue** (espagnol, allemand, français, anglais et italien) et la prise en charge de **Linux/Wine**.
 
 ## Téléchargements {#downloads}
 

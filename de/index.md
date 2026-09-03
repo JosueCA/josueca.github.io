@@ -3,9 +3,9 @@ layout: default
 lang: "de"
 permalink: /de/
 title: "Imperivm 1 HD und Mod - Die Teutonen-Bedrohung (Full-HD-Patch)"
-description: "Lade den Mod «La Amenaza Teutón» (Die Teutonen-Bedrohung) und den Full-HD-Patch für Imperivm - Der Gallische Krieg herunter: neue HD-Auflösungen, bessere KI, Einheiten, Zufallskarten, Mehrsprachigkeit und Linux/Wine-Unterstützung."
+description: "Lade den Mod «La Amenaza Teutón» (Die Teutonen-Bedrohung) und den Full-HD-Patch für Imperivm - La Guerra de las Galias herunter: neue HD-Auflösungen, bessere KI, Einheiten, Zufallskarten, Mehrsprachigkeit und Linux/Wine-Unterstützung."
 banner_title: "Imperivm 1 - Die Teutonen-Bedrohung + Full-HD-Patch"
-banner_tagline: "Imperivm 1 HD: der Mod «La Amenaza Teutón» und der Full-HD-Patch für Imperivm - Der Gallische Krieg. Neue HD-Auflösungen, verbesserte KI, Einheiten, Karten, Mehrsprachigkeit und Linux/Wine-Unterstützung."
+banner_tagline: "Imperivm 1 HD: der Mod «La Amenaza Teutón» und der Full-HD-Patch für Imperivm - La Guerra de las Galias. Neue HD-Auflösungen, verbesserte KI, Einheiten, Karten, Mehrsprachigkeit und Linux/Wine-Unterstützung."
 image: /capturas/AMENAZA_TEUTON.png
 ---
 
@@ -15,7 +15,7 @@ image: /capturas/AMENAZA_TEUTON.png
     <b>Imperivm 1 - Die Teutonen-Bedrohung</b>
 </p>
 
-**Imperivm 1 HD** ist ein **Mod** («La Amenaza Teutón», Die Teutonen-Bedrohung) und ein **Full-HD-Patch** für *Imperivm - Der Gallische Krieg* (Celtic Kings / Imperivm 1). Er fügt neue **HD-Auflösungen** bis 1920×1080, eine **verbesserte KI**, Änderungen an Einheiten, Zufallskarten, **Mehrsprachigkeit** (Spanisch, Deutsch, Französisch, Englisch und Italienisch) sowie Unterstützung für **Linux/Wine** hinzu.
+**Imperivm 1 HD** ist ein **Mod** («La Amenaza Teutón», Die Teutonen-Bedrohung) und ein **Full-HD-Patch** für *Imperivm - La Guerra de las Galias* (Celtic Kings / Imperivm 1). Er fügt neue **HD-Auflösungen** bis 1920×1080, eine **verbesserte KI**, Änderungen an Einheiten, Zufallskarten, **Mehrsprachigkeit** (Spanisch, Deutsch, Französisch, Englisch und Italienisch) sowie Unterstützung für **Linux/Wine** hinzu.
 
 ## Downloads {#downloads}
 
