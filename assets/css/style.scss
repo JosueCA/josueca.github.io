@@ -98,6 +98,56 @@ img.fbstrip {
   padding: 2px 4px;
 }
 
+/* --- Desplegable del paso a paso --- */
+details.pasos {
+  margin: 16px 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+details.pasos > summary {
+  cursor: pointer;
+  padding: 10px 14px;
+  font-weight: bold;
+  list-style: none;
+}
+
+details.pasos > summary::-webkit-details-marker {
+  display: none;
+}
+
+details.pasos > summary::before {
+  content: "\25B6";
+  display: inline-block;
+  margin-right: 8px;
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
+}
+
+details.pasos[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+details.pasos > summary:hover {
+  text-decoration: underline;
+}
+
+details.pasos > ol {
+  margin: 0;
+  padding: 0 14px 12px 34px;
+}
+
+/* --- Capturas del paso a paso de instalación --- */
+img.paso {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0 6px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
 /* --- Iconos de unidad en las tablas --- */
 span.unidad {
   display: flex;

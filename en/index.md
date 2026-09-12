@@ -27,10 +27,6 @@ image: /capturas/AMENAZA_TEUTON.png
 
 [Download on ModDB](https://www.moddb.com/mods/la-amenaza-teuton)  
 
-### Installation notes {#install}
-
-This MOD is applied directly on top of an existing installation of "Imperivm 1: La Guerra de las Galias" (the Spanish release of Celtic Kings: Rage of War), replacing the .pak files and the other folders/files included in the zip.
-
 ---
 
 ## Adventure compatibility {#adventures}
@@ -41,7 +37,8 @@ This MOD is not 100% compatible with the adventures. To enjoy the original exper
 
 ## Table of contents {#toc}
 
-1. [Wine compatibility](#sec1)
+1. [Installation notes](#install)
+1. [Audio compatibility](#sec1)
 1. [New HD screen resolutions](#sec2)
 1. [Multi-language support](#sec3)
 1. [General changes](#sec4)
@@ -72,7 +69,54 @@ This MOD is not 100% compatible with the adventures. To enjoy the original exper
 
 ---
 
-## 1. Wine compatibility {#sec1}
+## 1. Installation notes {#install}
+
+This MOD is applied directly on top of an existing installation of "Imperivm 1: La Guerra de las Galias" (the Spanish release of Celtic Kings: Rage of War), replacing the .pak files and the other folders/files included in the zip.
+
+<details class="pasos" markdown="1">
+<summary>Step by step</summary>
+
+1. Open the *Imperivm - La Guerra de las Galias* disc (or CD image) and run `Instalar.exe`.
+
+   <img src="/capturas/install/zi1.png" class="paso" alt="Contents of the Imperivm disc with Instalar.exe selected" loading="lazy">
+
+1. In the installer menu, click **OPCIONES** (options).
+
+   <img src="/capturas/install/zi2.png" class="paso" alt="Imperivm installer menu" loading="lazy">
+
+1. Choose the drive and the destination folder, then click **INSTALAR** (install).
+
+   <img src="/capturas/install/zi3.png" class="paso" alt="Drive and destination folder selection" loading="lazy">
+
+1. Confirm the installation path with **Aceptar** (OK).
+
+   <img src="/capturas/install/zi4.png" class="paso" alt="Installation folder confirmation" loading="lazy">
+
+1. Wait while the game files are copied.
+
+   <img src="/capturas/install/zi5.png" class="paso" alt="File copy progress" loading="lazy">
+
+1. Accept the **Microsoft DirectX 8.1** licence agreement with **Sí** (yes); it is required by the game.
+
+   <img src="/capturas/install/zi6.png" class="paso" alt="Microsoft DirectX 8.1 licence agreement" loading="lazy">
+
+1. When it finishes, the installer shows **JUGAR** (play): the game is installed. Close it with **SALIR** (exit).
+
+   <img src="/capturas/install/zi7.png" class="paso" alt="Installer showing the JUGAR option after installing the game" loading="lazy">
+
+1. Unzip the MOD over the game's installation folder, replacing the existing files.
+
+</details>
+
+On Linux/Wine, see also [Audio compatibility](#sec1).
+
+## 2. Audio compatibility {#sec1}
+
+### New audio engine {#audio-backend}
+
+New audio engine with multiple interfaces support (WASAPI, DirectSound and WinMM). Enabled by default, with auto detection of interface. (Configurable in `config.ini`)
+
+### Wine {#wine}
 - **Wine**: WinXP 32-bit
 - **Winetricks**
 ```
@@ -93,7 +137,7 @@ directmusic
 - **Audio codec conversion**: the unit voice files used the Microsoft ADPCM codec, which Wine does not fully support. **120+ voice WAV files** (Gauls, Romans and Teutons) were converted to standard PCM so they work correctly on Linux/Wine.
 - Converted the audio files of the 'Celtic Kings Adventure' and 'Tutorial' adventures
 
-## 2. New HD screen resolutions {#sec2}
+## 3. New HD screen resolutions {#sec2}
 
 | Resolution | Width | Height | Aspect |
 |---|---|---|---|
@@ -117,11 +161,11 @@ directmusic
 
 **Support for 1600px-1920px resolutions available from version "La Amenaza Teuton v0.4.0"**
 
-## 3. Multi-language support {#sec3}
+## 4. Multi-language support {#sec3}
 - Added German, French, English and Italian (in addition to Spanish). Configurable from the 'vxSettings.ini' file
 - Fixed the volume of the English voices
 
-## 4. General changes {#sec4}
+## 5. General changes {#sec4}
 - Music changes
 - Small tweaks to the game interface
 - Intro video replaced with the trailer (better quality)
@@ -134,7 +178,7 @@ directmusic
 
 - New game type 'Total war' (Elimination, but with recruitment multiplied by 5)
 
-## 5. Random maps {#sec5}
+## 6. Random maps {#sec5}
 - Reworked random map generation
 - Reused assets to generate more varied scenery
 - Increased the scenery ratio
@@ -175,7 +219,7 @@ directmusic
 
 ---
 
-## 6. Unit changes {#sec6}
+## 7. Unit changes {#sec6}
 
 ## Specialities {#specialities}
 
@@ -296,7 +340,7 @@ directmusic
 
 - Changed random hero recruitment: it is now sequential with a random start, to maximise the variety of hero assets/sprites within a game.
 
-## 7. Gameplay improvements {#sec7}
+## 8. Gameplay improvements {#sec7}
 
 ### New «LAT» AI {#lat-ai}
 - Higher difficulty when playing against the AI
@@ -389,7 +433,7 @@ directmusic
 - Fixed BONUS.XML entries that randomly had no effect
 - Fixed random crashes when loading maps
 
-## 8. Winter biome fixes {#sec8}
+## 9. Winter biome fixes {#sec8}
 - Replaced the minimap images with the summer ones
 - Reduced the exposure (brightness) of the winter terrain textures
 <p align="center">
@@ -399,7 +443,7 @@ directmusic
     <img src="/capturas/captura_decorados_inv_1.png" style="width: 75%;  max-width: 768px;" alt="Winter scenery" loading="lazy">
 </p>
 
-## 9. Player colours {#sec9}
+## 10. Player colours {#sec9}
 
 Redesigned player colours to maximise the visual distinction between them and avoid interference.
 

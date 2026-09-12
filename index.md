@@ -23,12 +23,7 @@ image: /capturas/AMENAZA_TEUTON.png
 
 [Descargar en Moddb](https://www.moddb.com/mods/la-amenaza-teuton)  
 
-### Notas de Instalación
-
-Este MOD se aplica directamente sobre la instalación del juego de "Imperivm 1: La Guerra de las Galias" (versión española de Celtic Kings: Rage of War). Reemplazando los archivos .pak y demás directorios/ficheros incluidos en el zip.
-
 ---
-
 
 ## Compatibilidad con aventuras
 Este MOD no es 100% compatible con las aventuras. Para disfrutar de la experiencia original en Full HD, utilizar el parche independiente para el juego.
@@ -37,12 +32,13 @@ Este MOD no es 100% compatible con las aventuras. Para disfrutar de la experienc
 
 ## Tabla de Contenidos
 
-1. [Compatibilidad Wine](#1-compatibilidad-wine)
-1. [Nuevas resoluciones HD de pantalla](#2-nuevas-resoluciones-hd-de-pantalla)
-1. [Soporte multilingüe](#3-soporte-multilingüe)
-1. [Cambios generales](#4-cambios-generales)
-1. [Mapas aleatorios](#5-mapas-aleatorios)
-1. [Cambios en Unidades](#6-cambios-en-unidades)
+1. [Notas de Instalación](#1-notas-de-instalación)
+1. [Compatibilidad de audio](#2-compatibilidad-de-audio)
+1. [Nuevas resoluciones HD de pantalla](#3-nuevas-resoluciones-hd-de-pantalla)
+1. [Soporte multilingüe](#4-soporte-multilingüe)
+1. [Cambios generales](#5-cambios-generales)
+1. [Mapas aleatorios](#6-mapas-aleatorios)
+1. [Cambios en Unidades](#7-cambios-en-unidades)
    - [Especialidades](#especialidades)
    - [Efectos visuales de las especialidades](#efectos-visuales-de-las-especialidades)
    - [Unidades Galas](#unidades-galas)
@@ -50,7 +46,7 @@ Este MOD no es 100% compatible con las aventuras. Para disfrutar de la experienc
    - [Unidades Teutón](#unidades-teutón)
    - [Otras Unidades](#otras-unidades)
    - [Héroes](#héroes)
-1. [Mejoras al juego](#7-mejoras-al-juego)
+1. [Mejoras al juego](#8-mejoras-al-juego)
    - [Nueva IA «LAT»](#nueva-ia-lat)
    - [Fortaleza](#fortaleza)
    - [Taverna Romana](#taverna-romana)
@@ -63,12 +59,59 @@ Este MOD no es 100% compatible con las aventuras. Para disfrutar de la experienc
    - [Fortines](#fortines)
    - [Animales](#animales)
    - [Otros](#otros)
-1. [Correcciones al bioma de invierno](#8-correcciones-al-bioma-de-invierno)
-1. [Colores de Jugadores](#9-colores-de-jugadores)
+1. [Correcciones al bioma de invierno](#9-correcciones-al-bioma-de-invierno)
+1. [Colores de Jugadores](#10-colores-de-jugadores)
 
 ---
 
-## 1. Compatibilidad Wine
+## 1. Notas de Instalación
+
+Este MOD se aplica directamente sobre la instalación del juego de "Imperivm 1: La Guerra de las Galias" (versión española de Celtic Kings: Rage of War). Reemplazando los archivos .pak y demás directorios/ficheros incluidos en el zip.
+
+<details class="pasos" markdown="1">
+<summary>Paso a paso</summary>
+
+1. Abre el disco (o la imagen del CD) de *Imperivm - La Guerra de las Galias* y ejecuta `Instalar.exe`.
+
+   <img src="capturas/install/zi1.png" class="paso" alt="Contenido del disco de Imperivm con Instalar.exe seleccionado" loading="lazy">
+
+1. En el menú del instalador, pulsa **OPCIONES**.
+
+   <img src="capturas/install/zi2.png" class="paso" alt="Menú del instalador de Imperivm" loading="lazy">
+
+1. Elige la unidad y la carpeta de destino y pulsa **INSTALAR**.
+
+   <img src="capturas/install/zi3.png" class="paso" alt="Selección de unidad y carpeta de destino" loading="lazy">
+
+1. Confirma la ruta de instalación con **Aceptar**.
+
+   <img src="capturas/install/zi4.png" class="paso" alt="Confirmación de la carpeta de instalación" loading="lazy">
+
+1. Espera mientras se copian los archivos del juego.
+
+   <img src="capturas/install/zi5.png" class="paso" alt="Progreso de la copia de archivos" loading="lazy">
+
+1. Acepta con **Sí** el contrato de licencia de **Microsoft DirectX 8.1**, necesario para el juego.
+
+   <img src="capturas/install/zi6.png" class="paso" alt="Contrato de licencia de Microsoft DirectX 8.1" loading="lazy">
+
+1. Al terminar, el instalador muestra **JUGAR**: el juego ya está instalado. Ciérralo con **SALIR**.
+
+   <img src="capturas/install/zi7.png" class="paso" alt="Instalador con la opción JUGAR tras instalar el juego" loading="lazy">
+
+1. Descomprime el zip del MOD sobre la carpeta de instalación del juego, reemplazando los archivos existentes.
+
+</details>
+
+En Linux/Wine, revisa además [Compatibilidad de audio](#2-compatibilidad-de-audio).
+
+## 2. Compatibilidad de audio
+
+### Nuevo motor de audio
+
+Nuevo motor de audio con soporte para varias interfaces (WASAPI, DirectSound y WinMM). Activado por defecto, con detección automática de la interfaz. (Configurable en `config.ini`)
+
+### Wine
 - **Wine**: WinXP 32 bits
 - **Winetricks**
 ```
@@ -89,7 +132,7 @@ directmusic
 - **Conversión de codec de audio**: Los archivos de voz de las unidades usaban el codec Microsoft ADPCM, que Wine no soporta completamente. Se convirtieron **120+ archivos WAV** de voces (galos, romanos y teutones) a PCM estándar para que funcionen correctamente en Linux/Wine.
 - Convertidos archivos de audio de las aventuras 'Celtic Kings Adventure' y 'Tutorial'
 
-## 2. Nuevas resoluciones HD de pantalla
+## 3. Nuevas resoluciones HD de pantalla
 
 | Resolución | Ancho | Alto | Aspecto |
 |------------|-------|------|---------|
@@ -113,11 +156,11 @@ directmusic
 
 **Soporte para resoluciones 1600px-1920px disponible desde la versión "La Amenaza Teuton v0.4.0"**
 
-## 3. Soporte multilingüe
+## 4. Soporte multilingüe
 - Añadidos idiomas Alemán, Francés, Inglés, e Italiano (además del Español). Configurable desde el fichero 'vxSettings.ini'
 - Corregido volumen de las voces en inglés
 
-## 4. Cambios generales
+## 5. Cambios generales
 - Cambios en la música
 - Pequeños ajustes en la interfaz del juego
 - Vídeo introductorio reemplazado por el trailer (mejor calidad)
@@ -130,7 +173,7 @@ directmusic
 
 - Nuevo tipo de partida 'Total war' (Eliminación, pero con reclutamiento multiplicado x5)
 
-## 5. Mapas aleatorios
+## 6. Mapas aleatorios
 - Modificada generación de mapas aleatoria
 - Reutilizados assets para generar decorados más variados
 - Aumentado el ratio de decoraciones
@@ -171,7 +214,7 @@ directmusic
 
 ---
 
-## 6. Cambios en Unidades
+## 7. Cambios en Unidades
 
 ## Especialidades
 
@@ -292,7 +335,7 @@ directmusic
 
 - Modificado el reclutamiento aleatorio de los héroes, ahora es secuencial con el inicio aleatorio, para maximizar la distinción entre los assets/sprites de cada héroe en la partida.
 
-## 7. Mejoras al juego
+## 8. Mejoras al juego
 
 ### Nueva IA «LAT»
 - Mayor dificultad al jugar contra la IA
@@ -386,7 +429,7 @@ directmusic
 - Corregidos BONUS.XML que no tienen efecto aleatoriamente
 - Corregidos crashes aleatorios al cargar mapas
 
-## 8. Correcciones al bioma de invierno
+## 9. Correcciones al bioma de invierno
 - Reemplazadas las imágenes de los minimap por las de verano
 - Reducida la exposición (brillo) de las texturas de terreno de invierno
 <p align="center">
@@ -397,7 +440,7 @@ directmusic
 </p>
 
 
-## 9. Colores de Jugadores
+## 10. Colores de Jugadores
 
 Rediseño de los colores de los jugadores para maximizar la distinción visual entre ellos y evitar interferencias.
 
