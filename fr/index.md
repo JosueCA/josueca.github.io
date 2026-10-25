@@ -25,7 +25,9 @@ image: /capturas/AMENAZA_TEUTON.png
 
 [Télécharger les cartes](https://github.com/JosueCA/La-Amenaza-Teuton)  
 
-[Télécharger sur ModDB](https://www.moddb.com/mods/la-amenaza-teuton)  
+[Télécharger sur ModDB](https://www.moddb.com/members/sacredgames120)  
+
+[Télécharger Imperivm 2 HD](https://www.moddb.com/members/sacredgames120)  
 
 ---
 
@@ -117,6 +119,9 @@ Sous Linux/Wine, voir aussi [Compatibilité audio](#sec1).
 Nouveau moteur audio prenant en charge plusieurs interfaces (WASAPI, DirectSound et WinMM). Activé par défaut, avec détection automatique de l'interface. (Configurable dans `config.ini`)
 
 ### Wine {#wine}
+
+**Les versions récentes de Wine n'ont pas besoin d'un préfixe 32 bits séparé. Elles prennent en charge le 32 et le 64 bits dans le même préfixe 64 bits**
+
 - **Wine** : WinXP 32 bits
 - **Winetricks**
 ```
@@ -177,6 +182,10 @@ directmusic
 </p>
 
 - Nouveau type de partie 'Total war' (Élimination, mais avec un recrutement multiplié par 5)
+- Nouveau widget de sélection rapide
+<p align="center">
+    <img src="/capturas/ui/widget-shorcut-zoomed.jpg" style="width: 75%;  max-height: 579px;" alt="Widget" loading="lazy">
+</p>
 
 ## 6. Cartes aléatoires {#sec5}
 - Génération des cartes aléatoires revue
@@ -271,7 +280,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/gwfighter.png" class="icono" alt="Guerrière" loading="lazy"><span>Guerrière</span></span> | 340 | 18–36 | slash | 0 | 8 | 80 | — | coup vampirique |
 | <span class="unidad"><img src="/capturas/iconos/gdruid.png" class="icono" alt="Druide" loading="lazy"><span>Druide</span></span> | 120 | — | — | — | — | 60 | 200 | — |
 | <span class="unidad"><img src="/capturas/iconos/gvikinglord.png" class="icono" alt="Seigneur viking" loading="lazy"><span>Seigneur viking</span></span> | 3000 | 42–84 | slash | 6 | 6 | 80 | — | liberté, charge |
-| <span class="unidad"><img src="/capturas/iconos/ieliteguard.png" class="icono" alt="Garde d'élite" loading="lazy"><span>Garde d'élite</span></span> | 350 | 18–28 | slash | 10 | 10 | 80 | — | posture défensive, compétence en attaque |
+| <span class="unidad"><img src="/capturas/iconos/ieliteguard.png" class="icono" alt="Garde d'élite" loading="lazy"><span>Garde d'élite</span></span> | 350 | 18–28 | slash | 6 | 6 | 80 | — | posture défensive, compétence en attaque |
 
 ---
 
@@ -290,7 +299,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/cwarelephant.png" class="icono" alt="Éléphant de guerre" loading="lazy"><span>Éléphant de guerre</span></span> | 2000 | 30–40 | slash | 10 | 10 | 60 | — | liberté, dégâts d'écrasement |
 
 ### Éléphant de guerre {#war-elephant}
-- Les unités à distance infligent x1,5 contre les Éléphants de guerre
+- Les unités à distance infligent x1,25 contre les Éléphants de guerre
 
 ---
 
@@ -320,6 +329,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/idefender.png" class="icono" alt="Défenseur" loading="lazy"><span>Défenseur</span></span> | 200 | 14–24 | pierce | 8 | 8 | 80 | — | posture défensive |
 | <span class="unidad"><img src="/capturas/iconos/icavalry.png" class="icono" alt="Cavalerie" loading="lazy"><span>Cavalerie</span></span> | 240 | 20–30 | slash | 6 | 6 | 160 | — | charge |
 | <span class="unidad"><img src="/capturas/iconos/imountaineer.png" class="icono" alt="Montagnard" loading="lazy"><span>Montagnard</span></span> | 400 | 24–48 | slash | 4 | 0 | 80 | — | liberté |
+| <span class="unidad"><img src="/capturas/iconos/teutonwolf.png" class="icono" alt="Loup teuton" loading="lazy"><span>Loup teuton</span></span> | 400 | 22–26 | slash | 8 | 4 | 160 | — | charge, dégâts d'écrasement |
 
 ---
 
@@ -432,6 +442,11 @@ directmusic
 - Messages 'assets/interface/settlement icon' corrigés dans le vx.log
 - Entrées BONUS.XML corrigées, elles restaient parfois sans effet
 - Plantages aléatoires au chargement des cartes corrigés
+- Correction d'un bug qui provoquait une latence maximale (limitée par MaxTickSize) dans les parties multijoueurs lorsque l'ordinateur de l'un des joueurs était allumé depuis plus de 24,86 jours
+- Correction de l'interface d'escarmouche, qui attribuait une nation incorrecte sur les cartes prédéfinies lors du changement de position d'un joueur dans la liste
+- Le pinceau 'Eau' de l'éditeur avec l'action 'Shift' ne modifie plus la hauteur du terrain voisin
+- Ajout de décors de ponts, de camps et de ruines provenant d'Imperivm 2
+- Stabilité des parties multijoueurs améliorée
 
 ## 9. Corrections du biome d'hiver {#sec8}
 - Images des minimaps remplacées par celles de l'été

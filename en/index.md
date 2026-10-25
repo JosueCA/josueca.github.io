@@ -25,7 +25,9 @@ image: /capturas/AMENAZA_TEUTON.png
 
 [Download maps](https://github.com/JosueCA/La-Amenaza-Teuton)  
 
-[Download on ModDB](https://www.moddb.com/mods/la-amenaza-teuton)  
+[Download on ModDB](https://www.moddb.com/members/sacredgames120)  
+
+[Download Imperivm 2 HD](https://www.moddb.com/members/sacredgames120)  
 
 ---
 
@@ -117,6 +119,9 @@ On Linux/Wine, see also [Audio compatibility](#sec1).
 New audio engine with multiple interfaces support (WASAPI, DirectSound and WinMM). Enabled by default, with auto detection of interface. (Configurable in `config.ini`)
 
 ### Wine {#wine}
+
+**Recent Wine versions don't need a separate 32-bit prefix. They support 32-bit and 64-bit in the same 64-bit prefix**
+
 - **Wine**: WinXP 32-bit
 - **Winetricks**
 ```
@@ -177,6 +182,10 @@ directmusic
 </p>
 
 - New game type 'Total war' (Elimination, but with recruitment multiplied by 5)
+- New quick selection widget
+<p align="center">
+    <img src="/capturas/ui/widget-shorcut-zoomed.jpg" style="width: 75%;  max-height: 579px;" alt="Widget" loading="lazy">
+</p>
 
 ## 6. Random maps {#sec5}
 - Reworked random map generation
@@ -271,7 +280,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/gwfighter.png" class="icono" alt="Woman Warrior" loading="lazy"><span>Woman Warrior</span></span> | 340 | 18–36 | slash | 0 | 8 | 80 | — | vampire blow |
 | <span class="unidad"><img src="/capturas/iconos/gdruid.png" class="icono" alt="Druid" loading="lazy"><span>Druid</span></span> | 120 | — | — | — | — | 60 | 200 | — |
 | <span class="unidad"><img src="/capturas/iconos/gvikinglord.png" class="icono" alt="Viking Lord" loading="lazy"><span>Viking Lord</span></span> | 3000 | 42–84 | slash | 6 | 6 | 80 | — | freedom, charge |
-| <span class="unidad"><img src="/capturas/iconos/ieliteguard.png" class="icono" alt="Elite Guard" loading="lazy"><span>Elite Guard</span></span> | 350 | 18–28 | slash | 10 | 10 | 80 | — | defensive stand, attack skill |
+| <span class="unidad"><img src="/capturas/iconos/ieliteguard.png" class="icono" alt="Elite Guard" loading="lazy"><span>Elite Guard</span></span> | 350 | 18–28 | slash | 6 | 6 | 80 | — | defensive stand, attack skill |
 
 ---
 
@@ -290,7 +299,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/cwarelephant.png" class="icono" alt="War Elephant" loading="lazy"><span>War Elephant</span></span> | 2000 | 30–40 | slash | 10 | 10 | 60 | — | freedom, trample damage |
 
 ### War Elephant {#war-elephant}
-- Ranged units deal x1.5 against War Elephants
+- Ranged units deal x1.25 against War Elephants
 
 ---
 
@@ -320,6 +329,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/idefender.png" class="icono" alt="Defender" loading="lazy"><span>Defender</span></span> | 200 | 14–24 | pierce | 8 | 8 | 80 | — | defensive stand |
 | <span class="unidad"><img src="/capturas/iconos/icavalry.png" class="icono" alt="Cavalry" loading="lazy"><span>Cavalry</span></span> | 240 | 20–30 | slash | 6 | 6 | 160 | — | charge |
 | <span class="unidad"><img src="/capturas/iconos/imountaineer.png" class="icono" alt="Mountaineer" loading="lazy"><span>Mountaineer</span></span> | 400 | 24–48 | slash | 4 | 0 | 80 | — | freedom |
+| <span class="unidad"><img src="/capturas/iconos/teutonwolf.png" class="icono" alt="Teuton Wolf" loading="lazy"><span>Teuton Wolf</span></span> | 400 | 22–26 | slash | 8 | 4 | 160 | — | charge, trample damage |
 
 ---
 
@@ -432,6 +442,11 @@ directmusic
 - Fixed 'assets/interface/settlement icon' messages in vx.log
 - Fixed BONUS.XML entries that randomly had no effect
 - Fixed random crashes when loading maps
+- Fixed a bug that caused maximum latency (limited by MaxTickSize) in multiplayer games when one of the peers' computer uptime was more than 24.86 days
+- Fixed the skirmish UI setting the wrong nation on predefined maps when changing a player's position in the list
+- Changed the editor's 'Water' brush so the 'Shift' action no longer modifies the height of nearby terrain
+- Added bridge, camp and ruin decorations from Imperivm 2
+- Improved stability in multiplayer games
 
 ## 9. Winter biome fixes {#sec8}
 - Replaced the minimap images with the summer ones

@@ -25,7 +25,9 @@ image: /capturas/AMENAZA_TEUTON.png
 
 [Karten herunterladen](https://github.com/JosueCA/La-Amenaza-Teuton)  
 
-[Auf ModDB herunterladen](https://www.moddb.com/mods/la-amenaza-teuton)  
+[Auf ModDB herunterladen](https://www.moddb.com/members/sacredgames120)  
+
+[Imperivm 2 HD herunterladen](https://www.moddb.com/members/sacredgames120)  
 
 ---
 
@@ -117,6 +119,9 @@ Unter Linux/Wine außerdem [Audio-Kompatibilität](#sec1) beachten.
 Neue Audio-Engine mit Unterstützung mehrerer Schnittstellen (WASAPI, DirectSound und WinMM). Standardmäßig aktiviert, mit automatischer Erkennung der Schnittstelle. (Konfigurierbar in `config.ini`)
 
 ### Wine {#wine}
+
+**Aktuelle Wine-Versionen benötigen kein separates 32-Bit-Präfix. Sie unterstützen 32 und 64 Bit im selben 64-Bit-Präfix**
+
 - **Wine**: WinXP 32 Bit
 - **Winetricks**
 ```
@@ -177,6 +182,10 @@ directmusic
 </p>
 
 - Neuer Spielmodus 'Total war' (Vernichtung, aber mit fünffacher Rekrutierung)
+- Neues Schnellauswahl-Widget
+<p align="center">
+    <img src="/capturas/ui/widget-shorcut-zoomed.jpg" style="width: 75%;  max-height: 579px;" alt="Widget" loading="lazy">
+</p>
 
 ## 6. Zufallskarten {#sec5}
 - Überarbeitete Erzeugung von Zufallskarten
@@ -271,7 +280,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/gwfighter.png" class="icono" alt="Kriegerin" loading="lazy"><span>Kriegerin</span></span> | 340 | 18–36 | slash | 0 | 8 | 80 | — | Vampirschlag |
 | <span class="unidad"><img src="/capturas/iconos/gdruid.png" class="icono" alt="Druide" loading="lazy"><span>Druide</span></span> | 120 | — | — | — | — | 60 | 200 | — |
 | <span class="unidad"><img src="/capturas/iconos/gvikinglord.png" class="icono" alt="Wikingerfürst" loading="lazy"><span>Wikingerfürst</span></span> | 3000 | 42–84 | slash | 6 | 6 | 80 | — | Freiheit, Atempause |
-| <span class="unidad"><img src="/capturas/iconos/ieliteguard.png" class="icono" alt="Elitewache" loading="lazy"><span>Elitewache</span></span> | 350 | 18–28 | slash | 10 | 10 | 80 | — | Verteidigungsfertigkeit, Angriffsfertigkeit |
+| <span class="unidad"><img src="/capturas/iconos/ieliteguard.png" class="icono" alt="Elitewache" loading="lazy"><span>Elitewache</span></span> | 350 | 18–28 | slash | 6 | 6 | 80 | — | Verteidigungsfertigkeit, Angriffsfertigkeit |
 
 ---
 
@@ -290,7 +299,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/cwarelephant.png" class="icono" alt="Kriegselefant" loading="lazy"><span>Kriegselefant</span></span> | 2000 | 30–40 | slash | 10 | 10 | 60 | — | Freiheit, Rundumschlag |
 
 ### Kriegselefant {#war-elephant}
-- Fernkampfeinheiten verursachen x1,5 Schaden gegen Kriegselefanten
+- Fernkampfeinheiten verursachen x1,25 Schaden gegen Kriegselefanten
 
 ---
 
@@ -320,6 +329,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/idefender.png" class="icono" alt="Verteidiger" loading="lazy"><span>Verteidiger</span></span> | 200 | 14–24 | pierce | 8 | 8 | 80 | — | Verteidigungsfertigkeit |
 | <span class="unidad"><img src="/capturas/iconos/icavalry.png" class="icono" alt="Kavallerie" loading="lazy"><span>Kavallerie</span></span> | 240 | 20–30 | slash | 6 | 6 | 160 | — | Atempause |
 | <span class="unidad"><img src="/capturas/iconos/imountaineer.png" class="icono" alt="Bergsteiger" loading="lazy"><span>Bergsteiger</span></span> | 400 | 24–48 | slash | 4 | 0 | 80 | — | Freiheit |
+| <span class="unidad"><img src="/capturas/iconos/teutonwolf.png" class="icono" alt="Wolf (Germanen)" loading="lazy"><span>Wolf (Germanen)</span></span> | 400 | 22–26 | slash | 8 | 4 | 160 | — | Atempause, Rundumschlag |
 
 ---
 
@@ -432,6 +442,11 @@ directmusic
 - 'assets/interface/settlement icon'-Meldungen in der vx.log behoben
 - BONUS.XML-Einträge behoben, die zufällig keine Wirkung hatten
 - Zufällige Abstürze beim Laden von Karten behoben
+- Fehler behoben, der in Mehrspielerpartien maximale Latenz (begrenzt durch MaxTickSize) verursachte, wenn die Betriebszeit des Computers eines Mitspielers mehr als 24,86 Tage betrug
+- Fehler in der Gefechtsoberfläche behoben, die auf vordefinierten Karten beim Ändern der Position eines Spielers in der Liste die falsche Nation festlegte
+- Der 'Wasser'-Pinsel des Editors verändert mit der 'Shift'-Aktion nicht mehr die Höhe des umliegenden Geländes
+- Brücken, Lager und Ruinen als Landschaftsobjekte aus Imperivm 2 hinzugefügt
+- Stabilität in Mehrspielerpartien verbessert
 
 ## 9. Korrekturen am Winter-Biom {#sec8}
 - Minimap-Bilder durch die Sommerversionen ersetzt

@@ -25,7 +25,9 @@ image: /capturas/AMENAZA_TEUTON.png
 
 [Scarica le mappe](https://github.com/JosueCA/La-Amenaza-Teuton)  
 
-[Scarica su ModDB](https://www.moddb.com/mods/la-amenaza-teuton)  
+[Scarica su ModDB](https://www.moddb.com/members/sacredgames120)  
+
+[Scarica Imperivm 2 HD](https://www.moddb.com/members/sacredgames120)  
 
 ---
 
@@ -117,6 +119,9 @@ Su Linux/Wine, vedi anche [Compatibilità audio](#sec1).
 Nuovo motore audio con supporto per più interfacce (WASAPI, DirectSound e WinMM). Attivo per impostazione predefinita, con rilevamento automatico dell'interfaccia. (Configurabile in `config.ini`)
 
 ### Wine {#wine}
+
+**Le versioni più recenti di Wine non richiedono un prefisso a 32 bit separato. Supportano 32 e 64 bit nello stesso prefisso a 64 bit**
+
 - **Wine**: WinXP 32 bit
 - **Winetricks**
 ```
@@ -177,6 +182,10 @@ directmusic
 </p>
 
 - Nuovo tipo di partita 'Total war' (Eliminazione, ma con reclutamento moltiplicato per 5)
+- Nuovo widget di selezione rapida
+<p align="center">
+    <img src="/capturas/ui/widget-shorcut-zoomed.jpg" style="width: 75%;  max-height: 579px;" alt="Widget" loading="lazy">
+</p>
 
 ## 6. Mappe casuali {#sec5}
 - Rivista la generazione delle mappe casuali
@@ -271,7 +280,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/gwfighter.png" class="icono" alt="Guerriera" loading="lazy"><span>Guerriera</span></span> | 340 | 18–36 | slash | 0 | 8 | 80 | — | attacco del vampiro |
 | <span class="unidad"><img src="/capturas/iconos/gdruid.png" class="icono" alt="Druido" loading="lazy"><span>Druido</span></span> | 120 | — | — | — | — | 60 | 200 | — |
 | <span class="unidad"><img src="/capturas/iconos/gvikinglord.png" class="icono" alt="Lord Vichingo" loading="lazy"><span>Lord Vichingo</span></span> | 3000 | 42–84 | slash | 6 | 6 | 80 | — | libertà, assalto |
-| <span class="unidad"><img src="/capturas/iconos/ieliteguard.png" class="icono" alt="Guardia scelta" loading="lazy"><span>Guardia scelta</span></span> | 350 | 18–28 | slash | 10 | 10 | 80 | — | capacità difensiva, abilità di attacco |
+| <span class="unidad"><img src="/capturas/iconos/ieliteguard.png" class="icono" alt="Guardia scelta" loading="lazy"><span>Guardia scelta</span></span> | 350 | 18–28 | slash | 6 | 6 | 80 | — | capacità difensiva, abilità di attacco |
 
 ---
 
@@ -290,7 +299,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/cwarelephant.png" class="icono" alt="Elefante da guerra" loading="lazy"><span>Elefante da guerra</span></span> | 2000 | 30–40 | slash | 10 | 10 | 60 | — | libertà, danno di violazione |
 
 ### Elefante da guerra {#war-elephant}
-- Le unità a distanza infliggono x1,5 contro gli Elefanti da guerra
+- Le unità a distanza infliggono x1,25 contro gli Elefanti da guerra
 
 ---
 
@@ -320,6 +329,7 @@ directmusic
 | <span class="unidad"><img src="/capturas/iconos/idefender.png" class="icono" alt="Difensore" loading="lazy"><span>Difensore</span></span> | 200 | 14–24 | pierce | 8 | 8 | 80 | — | capacità difensiva |
 | <span class="unidad"><img src="/capturas/iconos/icavalry.png" class="icono" alt="Cavalleria" loading="lazy"><span>Cavalleria</span></span> | 240 | 20–30 | slash | 6 | 6 | 160 | — | assalto |
 | <span class="unidad"><img src="/capturas/iconos/imountaineer.png" class="icono" alt="Montanaro" loading="lazy"><span>Montanaro</span></span> | 400 | 24–48 | slash | 4 | 0 | 80 | — | libertà |
+| <span class="unidad"><img src="/capturas/iconos/teutonwolf.png" class="icono" alt="Lupo Teutone" loading="lazy"><span>Lupo Teutone</span></span> | 400 | 22–26 | slash | 8 | 4 | 160 | — | assalto, danno di violazione |
 
 ---
 
@@ -432,6 +442,11 @@ directmusic
 - Corretti i messaggi 'assets/interface/settlement icon' nel vx.log
 - Corrette le voci di BONUS.XML che a volte non avevano effetto
 - Corretti i crash casuali durante il caricamento delle mappe
+- Corretto un bug che causava la latenza massima (limitata da MaxTickSize) nelle partite multigiocatore quando il computer di uno dei giocatori era acceso da più di 24,86 giorni
+- Corretta l'interfaccia della schermaglia, che assegnava una nazione errata nelle mappe predefinite quando si cambiava la posizione di un giocatore nella lista
+- Il pennello 'Acqua' dell'editor con l'azione 'Shift' non modifica più l'altezza del terreno vicino
+- Aggiunte decorazioni di ponti, accampamenti e rovine da Imperivm 2
+- Migliorata la stabilità nelle partite multigiocatore
 
 ## 9. Correzioni al bioma invernale {#sec8}
 - Sostituite le immagini delle minimappe con quelle estive
